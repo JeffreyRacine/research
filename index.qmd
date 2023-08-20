@@ -4,7 +4,7 @@ title: "Pointers, Tips, Code, and More"
 
 # Overview
 
-The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written or co-authored and software I have written or co-authored in R.^[The longer you remain in this industry, the more you are likely to encounter outdated university-related web hosting platforms, sites, and the like. Information on this site appeared in my defunct site which may still be accessible at <a href="https://facsocsci.mcmaster.ca/people/racinej">facsocsci.mcmaster.ca/people/racinej</a>] This auxialary website is accessible from my main academic professional website <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a>, and is not intended as a substitute.
+The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written or co-authored and software I have written or co-authored in R.^[The longer you remain in this industry, the more you are likely to encounter outdated university-related web hosting platforms, sites, and the like. Information on this site appeared in my defunct site which may still be accessible at <a href="https://facsocsci.mcmaster.ca/people/racinej">facsocsci.mcmaster.ca/people/racinej</a>] This auxiliary website is accessible from my main academic professional website <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a>, and is not intended as a substitute.
 
 ## Books
 
