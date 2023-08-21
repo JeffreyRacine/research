@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -120,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#stata-implementations-of-mixed-data-kernel-estimation-racine-li-2004-journal-of-econometrics-li-racine-2004-statistica-sinica" id="toc-stata-implementations-of-mixed-data-kernel-estimation-racine-li-2004-journal-of-econometrics-li-racine-2004-statistica-sinica" class="nav-link" data-scroll-target="#stata-implementations-of-mixed-data-kernel-estimation-racine-li-2004-journal-of-econometrics-li-racine-2004-statistica-sinica">Stata Implementations of Mixed Data Kernel Estimation (Racine &amp; Li (2004) Journal of Econometrics, Li &amp; Racine (2004) Statistica Sinica)</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/JeffreyRacine/research/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/JeffreyRacine/research/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -144,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written or co-authored and software I have written or co-authored in R.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This auxiliary website is accessible from my main academic professional website <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a>, and is not intended as a substitute.</p>
+<p>The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written (<span class="citation" data-cites="racine_cambridge_2019">Racine (<a href="#ref-racine_cambridge_2019" role="doc-biblioref">2019a</a>)</span>, <span class="citation" data-cites="racine_oxford_2019">Racine (<a href="#ref-racine_oxford_2019" role="doc-biblioref">2019b</a>)</span>, <span class="citation" data-cites="li_racine_2007">Li and Racine (<a href="#ref-li_racine_2007" role="doc-biblioref">2007</a>)</span>) or co-authored and software I have written or co-authored in R (<span class="citation" data-cites="np">Hayfield and Racine (<a href="#ref-np" role="doc-biblioref">2008</a>)</span>, <span class="citation" data-cites="crs">Racine and Nie (<a href="#ref-crs" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Nie2012TheCP">Nie and Racine (<a href="#ref-Nie2012TheCP" role="doc-biblioref">2012</a>)</span>, etc.).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This auxiliary website is accessible from my main academic professional website <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a>, and is not intended as a substitute.</p>
 <section id="books" class="level2">
 <h2 class="anchored" data-anchor-id="books">Books</h2>
 <p>1. Racine, J.S. (2019),&nbsp;<em>An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics (A Replicable Approach Using R)</em>, Cambridge University Press, ISBN 9781108483407, 408 pages.</p>
@@ -224,11 +243,31 @@ ul.task-list li input[type="checkbox"] {
 <p>As of Stata Version 15, Stata users now have access to our mixed-datatype kernel regression methods. See&nbsp;<a href="https://www.stata.com/manuals15/rnpregress.pdf" class="uri">https://www.stata.com/manuals15/rnpregress.pdf</a>&nbsp;for details. The Stata 15 function&nbsp;<em>npregress</em> is the counterpart to the function&nbsp;<em>npreg</em>&nbsp;in the R package np, albeit with different defaults and options.</p>
 
 
+
 </section>
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-np" class="csl-entry" role="listitem">
+Hayfield, Tristen, and Jeffrey S. Racine. 2008. <span>“Nonparametric Econometrics: The Np Package.”</span> <em>Journal of Statistical Software</em> 27 (5): 1–32. <a href="https://doi.org/10.18637/jss.v027.i05">https://doi.org/10.18637/jss.v027.i05</a>.
+</div>
+<div id="ref-li_racine_2007" class="csl-entry" role="listitem">
+Li, Q., and J. Racine. 2007. <em>Nonparametric Econometrics: Theory and Practice</em>. Princeton University Press. <a href="https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics">https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics</a>.
+</div>
+<div id="ref-Nie2012TheCP" class="csl-entry" role="listitem">
+Nie, Zhenghua, and Jeffrey S. Racine. 2012. <span>“The Crs Package: Nonparametric Regression Splines for Continuous and Categorical Predictors.”</span> <em>R J.</em> 4: 48. <a href="https://api.semanticscholar.org/CorpusID:10908672">https://api.semanticscholar.org/CorpusID:10908672</a>.
+</div>
+<div id="ref-racine_cambridge_2019" class="csl-entry" role="listitem">
+Racine, Jeffrey S. 2019a. <em>An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using <span>R</span></em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781108649841">https://doi.org/10.1017/9781108649841</a>.
+</div>
+<div id="ref-racine_oxford_2019" class="csl-entry" role="listitem">
+———. 2019b. <em>Reproducible Econometrics Using <span>R</span></em>. Oxford University Press.
+</div>
+<div id="ref-crs" class="csl-entry" role="listitem">
+Racine, Jeffrey S., and Zhenghua Nie. 2023. <em>Crs: Categorical Regression Splines</em>. <a href="https://CRAN.R-project.org/package=crs">https://CRAN.R-project.org/package=crs</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>The longer you remain in this industry, the more you are likely to encounter outdated university-related web hosting platforms, sites, and the like. Information on this site appeared in my defunct site which may still be accessible at <a href="https://facsocsci.mcmaster.ca/people/racinej">facsocsci.mcmaster.ca/people/racinej</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
