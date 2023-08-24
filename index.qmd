@@ -5,7 +5,7 @@ bibliography: references.bib
 
 # Overview
 
-The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written (@racine_cambridge_2019, @racine_oxford_2019, @li_racine_2007) or co-authored and software I have written or co-authored in R (@np, @crs, @Nie2012TheCP, etc.). This auxiliary website is accessible from my University website <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a>> and is not intended as a substitute.
+The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written (@racine_cambridge_2019, @racine_oxford_2019, @li_racine_2007) or co-authored and software I have written or co-authored in R (@np, @crs, @Nie2012TheCP, etc.). This auxiliary website is accessible from my University website <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a> and is not intended as a substitute.
 
 ## Books
 
