@@ -35,7 +35,7 @@ The information below contains pointers, links, code, and other information that
 
 ## Monographs
 
-1.  Racine, J.S. (2008), [*Nonparametric Econometrics: A Primer*](https://socialsciences.mcmaster.ca/racinej/ECO0301.pdf)*,* Foundations and Trends in Econometrics: Vol. 3: No 1, pp 1-88. (Link: <https://dx.doi.org/10.1561/0800000009>).
+1.  Racine, J.S. (2008), [*Nonparametric Econometrics: A Primer*](www/ECO0301.pdf)*,* Foundations and Trends in Econometrics: Vol. 3: No 1, pp 1-88. (Link: <https://dx.doi.org/10.1561/0800000009>).
 
     Here is the R code to replicate examples in this primer ([zip](https://socialsciences.mcmaster.ca/racinej/primer_code.zip)).
 
