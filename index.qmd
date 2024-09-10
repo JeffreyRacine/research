@@ -49,7 +49,7 @@ The information below contains pointers, links, code, and other information that
 
 2.  *Advances In Econometrics: Nonparametric Econometric Methods,* Volume 25, ISBN: 978-1-84950-623-6, Edited by: Qi Li, Jeffrey S. Racine, Published: 2009.
 
-## The R np and npRmpi Packages
+## The R np Package
 
 Consult the np FAQ ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np_faq.pdf)) for responses to commonly asked questions and the user manual ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)) for functions, descriptions, and examples.
 
