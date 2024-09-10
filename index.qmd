@@ -19,7 +19,7 @@ The information below contains pointers, links, code, and other information that
 
 2.  Racine, J.S. (2019), *Reproducible Econometrics Using R*, Oxford University Press, ISBN: 9780190900663, 293 pages.
 
-    Here is the Errata ([pdf](https://socialsciences.mcmaster.ca/racinej/errata_Oxford.pdf)). Note that lecture slides, assignments, exams, and a solutions manual are available upon request to instructors who adopt this book (slides in $\rm\LaTeX$ Beamer format). See the website link below for further details (see the *Companion Website* in the link below).
+    Here is the Errata ([pdf](www/errata_Oxford.pdf)). Note that lecture slides, assignments, exams, and a solutions manual are available upon request to instructors who adopt this book (slides in $\rm\LaTeX$ Beamer format). See the website link below for further details (see the *Companion Website* in the link below).
 
     You can order the book directly from Oxford University Press (Link: [Reproducible Econometrics Using R](https://global.oup.com/academic/product/reproducible-econometrics-using-r-9780190900663?q=reproducible%20econometrics%20using%20R&lang=en&cc=ca)) or from your favourite online retailer.
 
