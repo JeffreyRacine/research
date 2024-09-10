@@ -27,7 +27,7 @@ The information below contains pointers, links, code, and other information that
 
     You can order the book directly from Princeton University Press (Link: [Nonparametric Econometrics: Theory and Practice](https://press.princeton.edu/titles/8355.html)) or from your favourite online retailer.
 
-    Here is the table of contents ([pdf](www/pup_toc.pdf)), Chapter 1 ([pdf](https://press.princeton.edu/chapters/s8355.pdf)), the Errata ([pdf](https://socialsciences.mcmaster.ca/racinej/errata.pdf)), the solution manual containing code and answers to odd numbered questions ([pdf](https://socialsciences.mcmaster.ca/racinej/Solutions_Odd.pdf)), and R code for answers to all applied questions ([zip](https://socialsciences.mcmaster.ca/racinej/Solutions_code.zip)). A solution manual containing code and answers to all questions (odd and even) is available to instructors upon request. To receive a copy kindly email me your course syllabus along with your surface mailing address. A hard copy will then be sent via surface mail.
+    Here is the table of contents ([pdf](www/pup_toc.pdf)), Chapter 1 ([pdf](https://press.princeton.edu/chapters/s8355.pdf)), the Errata ([pdf](www/pup_errata.pdf)), the solution manual containing code and answers to odd numbered questions ([pdf](www/Solutions_Odd.pdf)), and R code for answers to all applied questions ([zip](www/Solutions_code.zip)). A solution manual containing code and answers to all questions (odd and even) is available to instructors upon request. To receive a copy kindly email me your course syllabus along with your surface mailing address. A hard copy will then be sent via surface mail.
 
     **Chinese Translation**:
 
@@ -37,7 +37,7 @@ The information below contains pointers, links, code, and other information that
 
 1.  Racine, J.S. (2008), [*Nonparametric Econometrics: A Primer*](www/ECO0301.pdf)*,* Foundations and Trends in Econometrics: Vol. 3: No 1, pp 1-88. (Link: <https://dx.doi.org/10.1561/0800000009>).
 
-    Here is the R code to replicate examples in this primer ([zip](https://socialsciences.mcmaster.ca/racinej/primer_code.zip)).
+    Here is the R code to replicate examples in this primer ([zip](www/primer_code.zip)).
 
     **Russian Translation**:
 
@@ -55,11 +55,12 @@ Consult the np FAQ ([pdf](https://cran.r-project.org/web/packages/np/vignettes/n
 
 The R ([www.r-project.org](https://www.r-project.org/)) np and npRmpi packages (current version 0.60-8) implement a variety of nonparametric and semiparametric kernel-based methods in R, an open source platform for statistical computing and graphics. Methods include kernel regression, kernel density estimation, kernel conditional density estimation, and a range of inferential procedures. See the links to the vignettes below for an overview of both packages (I would advise starting with the np vignette).
 
-The np package is the standard package you would use under R, while the npRmpi package is a version that uses the message passing interface for parallel computing. The npRmpi package is designed for executing batch programs on compute clusters and multi-core computing environments to reduce the run time for computationally intensive jobs. See the example files in the demo directory of the npRmpi package for illustrative npRmpi code, and see the examples in the help files and the link for replicating examples for the primer above for code to generate a range of illustrative examples.
+The np package is the standard package you would use under R, while the npRmpi package is a version that uses the message passing interface for parallel computing. The npRmpi package is designed for executing batch programs on compute clusters and multi-core computing environments to reduce the run time for computationally intensive jobs. See the example files in the demo directory of the npRmpi package on GitHub for illustrative npRmpi code, and see the examples in the help files and the link for replicating examples for the primer above for code to generate a range of illustrative examples. 
 
-Here is a direct [link](https://cran.r-project.org/web/packages/np/index.html) to the np package on the Comprehensive R Archive Network (CRAN), a direct [link](https://cran.r-project.org/web/packages/npRmpi/index.html) to the npRmpi package on CRAN, a direct [link](https://cran.r-project.org/web/packages/np/ChangeLog) to the CHANGELOG file on CRAN (documents differences between all versions), an npRmpi test file \`test.R' ([text](https://socialsciences.mcmaster.ca/racinej/test.R)), the npRmpi .Rprofile file ([text](https://socialsciences.mcmaster.ca/racinej/.Rprofile)), install instructions for npRmpi under Windows ([text](https://socialsciences.mcmaster.ca/racinej/install_npRmpi_MS_Windows.txt)), and instructions for compiling the npRmpi binary from scratch under Windows ([text](https://socialsciences.mcmaster.ca/racinej/compile_npRmpi_MS_Windows.txt)), and instructions for compiling the npRmpi source from scratch for Mac OS X Mountain Lion ([text](https://socialsciences.mcmaster.ca/racinej/install_npRmpi_mac_os.txt)). See the npRmpi GitHub repository (link below) for a recent npRmpi MS Windows binary (available as a binary zip file from the GitHub Downloads menu) and a recent npRmpi Mac OS X binary (available as a binary tgz file from the GitHub Downloads menu).
+Here is a direct [link](https://cran.r-project.org/web/packages/np/index.html) to the np package on the Comprehensive R Archive Network (CRAN) and a direct [link](https://cran.r-project.org/web/packages/np/ChangeLog) to the CHANGELOG file on CRAN (documents differences between all versions). Note CRAN is no longer hosting npRmpi and the package is now available on GitHub but is not updated as frequently as the np package.
+See the npRmpi GitHub repository (link below) for an npRmpi MS Windows binary (available as a binary zip file from the GitHub Downloads menu) and a recent npRmpi Mac OS X binary (available as a binary tgz file from the GitHub Downloads menu).
 
-See the October 2007 Rnews article ([pdf](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf)) that describes the np package, the np vignette ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)) for an overview of the np package, the npRmpi vignette ([pdf](https://cran.r-project.org/web/packages/npRmpi/vignettes/npRmpi.pdf)) for an overview of the installation and use of the npRmpi package, and the entropy-based inference vignette for an overview of computing entropy measures ([pdf](https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf)) ([R code](https://socialsciences.mcmaster.ca/racinej/entropy_np.R)).
+See the October 2007 Rnews article ([pdf](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf)) that describes the np package, the np vignette ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)) for an overview of the np package, the npRmpi vignette ([pdf](https://cran.r-project.org/web/packages/npRmpi/vignettes/npRmpi.pdf)) for an overview of the installation and use of the npRmpi package, and the entropy-based inference vignette for an overview of computing entropy measures ([pdf](https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf)) ([R code](www/entropy_np.R)).
 
 See also the review of the np package that appeared in 2008 in the Journal of Applied Econometrics ([link to article in the Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract)) and the review of the npRmpi package that appeared in 2011 in the Journal of Applied Econometrics ([link to article in the Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract)).
 
@@ -79,7 +80,7 @@ This package is hosted on GitHub ([link](https://github.com/JeffreyRacine/R-Pack
 
 ## The R ma Package
 
-Consult the user manual ([pdf](https://socialsciences.mcmaster.ca/racinej/ma-manual.pdf)) for functions, descriptions, and examples, and the vignette ([pdf](https://socialsciences.mcmaster.ca/racinej/ma-vignette.pdf)) for an overview.
+Consult the user manual ([pdf](www/ma-manual.pdf)) for functions, descriptions, and examples, and the vignette ([pdf](www/ma-vignette.pdf)) for an overview.
 
 The R ([www.r-project.org](https://www.r-project.org/)) ma package (current version 1.0-8) implements model averaging using a variety of multivariate bases and averaging criteria.
 
@@ -87,7 +88,7 @@ This package is hosted on GitHub ([link](https://github.com/JeffreyRacine/R-Pack
 
 ## The R hr Package
 
-Consult the user manual ([pdf](https://socialsciences.mcmaster.ca/racinej/hr-manual.pdf)) for functions, descriptions, and examples.
+Consult the user manual ([pdf](www/hr-manual.pdf)) for functions, descriptions, and examples.
 
 The R ([www.r-project.org](https://www.r-project.org/)) ma package (current version 1.0-1) implements the Hansen-Racine bootstrap model average unit root test.
 
