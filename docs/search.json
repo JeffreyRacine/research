@@ -1,79 +1,431 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Downloads and Teaching",
     "section": "",
-    "text": "This site is hosted on GitHub Pages and is linked to from my main academic/professional page. You can contact me at racinej@mcmaster.ca. My professional website can be found at experts.mcmaster.ca/display/racinej"
+    "text": "Resource\nType\n\n\n\n\nNonparametric Econometrics: A Primer\nPDF\n\n\nPrimer replication code\nZIP\n\n\nOxford errata\nPDF\n\n\nPrinceton table of contents\nPDF\n\n\nPrinceton errata\nPDF\n\n\nSolutions to odd-numbered Princeton questions\nPDF\n\n\nApplied-question R code\nZIP",
+    "crumbs": [
+      "Research",
+      "Downloads and Teaching"
+    ]
+  },
+  {
+    "objectID": "resources.html#book-companion-downloads",
+    "href": "resources.html#book-companion-downloads",
+    "title": "Downloads and Teaching",
+    "section": "",
+    "text": "Resource\nType\n\n\n\n\nNonparametric Econometrics: A Primer\nPDF\n\n\nPrimer replication code\nZIP\n\n\nOxford errata\nPDF\n\n\nPrinceton table of contents\nPDF\n\n\nPrinceton errata\nPDF\n\n\nSolutions to odd-numbered Princeton questions\nPDF\n\n\nApplied-question R code\nZIP",
+    "crumbs": [
+      "Research",
+      "Downloads and Teaching"
+    ]
+  },
+  {
+    "objectID": "resources.html#public-access-notes",
+    "href": "resources.html#public-access-notes",
+    "title": "Downloads and Teaching",
+    "section": "Public Access Notes",
+    "text": "Public Access Notes\nThe downloads above are the public companion resources currently surfaced by this site. The larger local book corpus also contains source manuscripts, teaching decks, exams, assignment files, full solution material, publisher correspondence, and administrative files. Those are not automatically public-site materials.\nFor adopted courses, instructor-only materials may be requested as described on Teaching Materials.",
+    "crumbs": [
+      "Research",
+      "Downloads and Teaching"
+    ]
+  },
+  {
+    "objectID": "resources.html#package-companion-downloads",
+    "href": "resources.html#package-companion-downloads",
+    "title": "Downloads and Teaching",
+    "section": "Package Companion Downloads",
+    "text": "Package Companion Downloads\n\n\n\nResource\nType\n\n\n\n\nEntropy vignette R code\nR script\n\n\nma user manual\nPDF\n\n\nma vignette\nPDF\n\n\nhr user manual\nPDF",
+    "crumbs": [
+      "Research",
+      "Downloads and Teaching"
+    ]
+  },
+  {
+    "objectID": "resources.html#instructor-materials",
+    "href": "resources.html#instructor-materials",
+    "title": "Downloads and Teaching",
+    "section": "Instructor Materials",
+    "text": "Instructor Materials\nLecture slides, assignments, exams, and solution manuals are available upon request for instructors who adopt the relevant books. Where a complete instructor solution manual is requested, please email a course syllabus and surface mailing address.",
+    "crumbs": [
+      "Research",
+      "Downloads and Teaching"
+    ]
+  },
+  {
+    "objectID": "resources.html#related-sites",
+    "href": "resources.html#related-sites",
+    "title": "Downloads and Teaching",
+    "section": "Related Sites",
+    "text": "Related Sites\n\nGallery of Code\nMcMaster profile\nnp on CRAN\ncrs on CRAN",
+    "crumbs": [
+      "Research",
+      "Downloads and Teaching"
+    ]
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "R Packages",
+    "section": "",
+    "text": "The np package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.\nThe current local source version is np 0.70-2. The MPI-aware sibling npRmpi is also at 0.70-2 locally and is designed for batch programs on clusters and multi-core environments where computationally intensive jobs benefit from explicit message passing.\n\n\n\nnp on CRAN\nnp changelog on CRAN\nnp FAQ\nnp user manual\nnp and npRmpi source repository\nGallery examples for np, npRmpi, and crs\n\n\nThe original package article is Hayfield and Racine (2008). See also the October 2007 R News article PDF, the entropy vignette PDF, and the accompanying R code.\nReviews appeared in the Journal of Applied Econometrics for np and npRmpi.\n\n\n\n\n\n\n\n\n\n\nFamily\nTypical Functions\nNotes\n\n\n\n\nKernel regression\nnpreg, npregbw\nConditional mean estimation and prediction for mixed data.\n\n\nUnconditional density/distribution\nnpudens, npudensbw, npudist, npudistbw\nDensity and distribution estimation with continuous and discrete variables.\n\n\nConditional density/distribution\nnpcdens, npcdensbw, npcdist, npcdistbw\nConditional PDF/CDF workflows, including quantile-related use cases.\n\n\nQuantile regression\nnpqreg\nNonparametric conditional quantiles derived from conditional distribution machinery.\n\n\nSemiparametric models\nnpplreg, npindex, npscoef\nPartially linear, single-index, and smooth-coefficient model families.\n\n\nSpecification and inference\npackage tests and vignettes\nEntropy, significance, and related inferential procedures.\n\n\n\nnpRmpi is the parallel sibling for larger jobs and MPI-aware workflows. It should be viewed as a companion implementation for computationally intensive tasks, not as a separate methodology.",
+    "crumbs": [
+      "Research",
+      "R Packages"
+    ]
+  },
+  {
+    "objectID": "software.html#np-and-nprmpi",
+    "href": "software.html#np-and-nprmpi",
+    "title": "R Packages",
+    "section": "",
+    "text": "The np package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.\nThe current local source version is np 0.70-2. The MPI-aware sibling npRmpi is also at 0.70-2 locally and is designed for batch programs on clusters and multi-core environments where computationally intensive jobs benefit from explicit message passing.\n\n\n\nnp on CRAN\nnp changelog on CRAN\nnp FAQ\nnp user manual\nnp and npRmpi source repository\nGallery examples for np, npRmpi, and crs\n\n\nThe original package article is Hayfield and Racine (2008). See also the October 2007 R News article PDF, the entropy vignette PDF, and the accompanying R code.\nReviews appeared in the Journal of Applied Econometrics for np and npRmpi.\n\n\n\n\n\n\n\n\n\n\nFamily\nTypical Functions\nNotes\n\n\n\n\nKernel regression\nnpreg, npregbw\nConditional mean estimation and prediction for mixed data.\n\n\nUnconditional density/distribution\nnpudens, npudensbw, npudist, npudistbw\nDensity and distribution estimation with continuous and discrete variables.\n\n\nConditional density/distribution\nnpcdens, npcdensbw, npcdist, npcdistbw\nConditional PDF/CDF workflows, including quantile-related use cases.\n\n\nQuantile regression\nnpqreg\nNonparametric conditional quantiles derived from conditional distribution machinery.\n\n\nSemiparametric models\nnpplreg, npindex, npscoef\nPartially linear, single-index, and smooth-coefficient model families.\n\n\nSpecification and inference\npackage tests and vignettes\nEntropy, significance, and related inferential procedures.\n\n\n\nnpRmpi is the parallel sibling for larger jobs and MPI-aware workflows. It should be viewed as a companion implementation for computationally intensive tasks, not as a separate methodology.",
+    "crumbs": [
+      "Research",
+      "R Packages"
+    ]
+  },
+  {
+    "objectID": "software.html#crs",
+    "href": "software.html#crs",
+    "title": "R Packages",
+    "section": "crs",
+    "text": "crs\nThe crs package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current local source version is crs 0.15-43.\n\nPackage Pointers\n\ncrs on CRAN\ncrs changelog on CRAN\ncrs FAQ\ncrs user manual\ncrs spline primer\ncrs source repository\n\n\nThe package article is Nie and Racine (2012), published in The R Journal PDF.\n\nMethod Families\n\n\n\n\n\n\n\n\nFamily\nTypical Use\nNotes\n\n\n\n\nCategorical regression splines\nMixed continuous/categorical predictors\nCore crs workflow.\n\n\nQuantile regression splines\nConditional quantile surfaces\nAvailable through quantile-oriented spline routes.\n\n\nModel selection and smoothing\nData-driven spline specification\nComplements the kernel-smoothing philosophy in np.",
+    "crumbs": [
+      "Research",
+      "R Packages"
+    ]
+  },
+  {
+    "objectID": "software.html#legacy-package-materials",
+    "href": "software.html#legacy-package-materials",
+    "title": "R Packages",
+    "section": "Legacy Package Materials",
+    "text": "Legacy Package Materials\n\nma\nThe ma package implements model averaging using a variety of multivariate bases and averaging criteria.\n\nUser manual\nVignette\nGitHub repository\n\n\n\nhr\nThe hr package implements the Hansen-Racine bootstrap model-average unit-root test.\n\nUser manual\nGitHub repository",
+    "crumbs": [
+      "Research",
+      "R Packages"
+    ]
+  },
+  {
+    "objectID": "software.html#stata-implementations",
+    "href": "software.html#stata-implementations",
+    "title": "R Packages",
+    "section": "Stata Implementations",
+    "text": "Stata Implementations\nAs of Stata 15, Stata users have access to mixed-datatype kernel regression methods through npregress. It is the Stata counterpart to npreg in the R package np, with different defaults and options.\n\nStata npregress manual",
+    "crumbs": [
+      "Research",
+      "R Packages"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Pointers, Tips, Code, and More",
+    "title": "Jeffrey S. Racine Research",
     "section": "",
-    "text": "(Kindly note that this auxiliary website is accessible from my University website experts.mcmaster.ca/display/racinej and is not intended as a substitute)"
+    "text": "Pointers, companion materials, and software links for nonparametric econometrics, reproducible econometrics, semiparametric methods, and the R packages that support this work.",
+    "crumbs": [
+      "Research",
+      "Overview"
+    ]
   },
   {
-    "objectID": "index.html#books",
-    "href": "index.html#books",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "Books",
-    "text": "Books\n\nRacine, J.S. (2019), An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics (A Replicable Approach Using R), Cambridge University Press, ISBN 9781108483407, 408 pages.\nNote that lecture slides, assignments, exams, and a solutions manual are available upon request to instructors who adopt this book (slides in \\(\\rm\\LaTeX\\) Beamer format). See the website link below for further details (see the Companion Website in the link below).\nYou can order the book directly from Cambridge University Press (Link: An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics) or from your favourite online retailer when available.\nRacine, J.S. (2019), Reproducible Econometrics Using R, Oxford University Press, ISBN: 9780190900663, 293 pages.\nHere is the Errata (pdf). Note that lecture slides, assignments, exams, and a solutions manual are available upon request to instructors who adopt this book (slides in \\(\\rm\\LaTeX\\) Beamer format). See the website link below for further details (see the Companion Website in the link below).\nYou can order the book directly from Oxford University Press (Link: Reproducible Econometrics Using R) or from your favourite online retailer.\nLi, Q. and J.S. Racine (2007), Nonparametric Econometrics: Theory and Practice, Princeton University Press, ISBN: 9780691121611, 746 Pages.\nYou can order the book directly from Princeton University Press (Link: Nonparametric Econometrics: Theory and Practice) or from your favourite online retailer.\nHere is the table of contents (pdf), Chapter 1 (pdf), the Errata (pdf), the solution manual containing code and answers to odd numbered questions (pdf), and R code for answers to all applied questions (zip). A solution manual containing code and answers to all questions (odd and even) is available to instructors upon request. To receive a copy kindly email me your course syllabus along with your surface mailing address. A hard copy will then be sent via surface mail.\nChinese Translation:\nLi, Q. and J.S. Racine, Nonparametric Econometrics: Theory and Practice, Translated by Ye Zhong, Wu Xianbgo et al., Peking University Press (2015), ISBN: 9787301249673."
+    "objectID": "index.html#at-a-glance",
+    "href": "index.html#at-a-glance",
+    "title": "Jeffrey S. Racine Research",
+    "section": "At A Glance",
+    "text": "At A Glance\n\n\n\nBooks\nCompanion pointers for the Cambridge, Oxford, and Princeton books, including errata, public code archives, tables of contents, and instructor-material notes.\nBooks and monographs\n\n\n\nCorpus Map\nA guide to how the books, articles, examples, and R packages fit together across kernel methods, splines, mixed data, and reproducible computation.\nResearch corpus map\n\n\n\n\n\n\nReader Pathways\nShort routes through the corpus for students, instructors, applied researchers, package users, and method developers.\nReader pathways\n\n\n\nSoftware\nCurrent links for np, npRmpi, crs, and legacy package materials, with CRAN, GitHub, manuals, vignettes, and review articles.\nR packages\n\n\n\nTeaching\nPublic downloads and a clear note on instructor-only materials for adopted courses, without mixing private course files into the public site.\nTeaching materials\n\n\n\n\n\n\nDownloads\nLocal PDFs, code archives, errata, manuals, and teaching-adjacent resources gathered from the older research page.\nDownloads and teaching\n\n\n\nGallery\nThe Gallery is the code-first companion for worked examples, package-oriented snippets, and current usage notes.\nGallery of Code",
+    "crumbs": [
+      "Research",
+      "Overview"
+    ]
   },
   {
-    "objectID": "index.html#monographs",
-    "href": "index.html#monographs",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "Monographs",
-    "text": "Monographs\n\nRacine, J.S. (2008), Nonparametric Econometrics: A Primer, Foundations and Trends in Econometrics: Vol. 3: No 1, pp 1-88. (Link: https://dx.doi.org/10.1561/0800000009).\nHere is the R code to replicate examples in this primer (zip).\nRussian Translation:\nAn edited version of this monograph is reprinted in Russian and appears as Racine, J.S. (2008) “Nonparametric Econometrics: A Primer”, Quantile, Number 4, pp 7-56."
+    "objectID": "index.html#research-thread",
+    "href": "index.html#research-thread",
+    "title": "Jeffrey S. Racine Research",
+    "section": "Research Thread",
+    "text": "Research Thread\nMuch of the material collected here is tied to three overlapping themes:\n\nnonparametric and semiparametric econometric methods for mixed continuous and categorical data;\nreproducible computational econometrics in R, from core R workflows to robust inference and time series;\nsoftware implementation, documentation, and applied workflows around np, npRmpi, and crs.\n\nThe companion Gallery of Code is the practical example layer. This research site is the bibliographic and resource layer: book links, package references, auxiliary downloads, and durable pointers.",
+    "crumbs": [
+      "Research",
+      "Overview"
+    ]
   },
   {
-    "objectID": "index.html#edited-volumes",
-    "href": "index.html#edited-volumes",
-    "title": "Pointers, Tips, Code, and More",
+    "objectID": "index.html#navigation-guidance",
+    "href": "index.html#navigation-guidance",
+    "title": "Jeffrey S. Racine Research",
+    "section": "Navigation Guidance",
+    "text": "Navigation Guidance\nStart with Reader Pathways if you want a guided route by audience. Use Books and Monographs if you are looking for a publication or companion file. Use the Research Corpus Map if you want to know which book or package is closest to a topic. Use R Packages for software entry points, current package versions, manuals, vignettes, and source repositories.",
+    "crumbs": [
+      "Research",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#core-references",
+    "href": "index.html#core-references",
+    "title": "Jeffrey S. Racine Research",
+    "section": "Core References",
+    "text": "Core References\n\nRacine, J.S. (2019a), An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using R.\nRacine, J.S. (2019b), Reproducible Econometrics Using R.\nLi, Q. and J.S. Racine (2007), Nonparametric Econometrics: Theory and Practice.\nHayfield, T. and J.S. Racine (2008), “Nonparametric Econometrics: The np Package.”\nNie, Z. and J.S. Racine (2012), “The crs Package: Nonparametric Regression Splines for Continuous and Categorical Predictors.”",
+    "crumbs": [
+      "Research",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Jeffrey S. Racine Research",
+    "section": "Quick Links",
+    "text": "Quick Links\n\n\n\nDestination\nLink\n\n\n\n\nMcMaster profile\nexperts.mcmaster.ca/display/racinej\n\n\nGallery of Code\njeffreyracine.github.io/gallery\n\n\nnp on CRAN\ncran.r-project.org/package=np\n\n\ncrs on CRAN\ncran.r-project.org/package=crs\n\n\nPackage source\ngithub.com/JeffreyRacine/R-Package-np",
+    "crumbs": [
+      "Research",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books and Monographs",
+    "section": "",
+    "text": "Racine, J.S. (2019a), An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using R, Cambridge University Press.\nCambridge University Press\n\n\n\n\nRacine, J.S. (2019b), Reproducible Econometrics Using R, Oxford University Press.\nOxford University Press · Errata\n\n\n\n\n\n\n\nLi, Q. and J.S. Racine (2007), Nonparametric Econometrics: Theory and Practice, Princeton University Press.\nPrinceton University Press · Table of contents · Errata\n\n\n\n\nLi, Q. and J.S. Racine, Nonparametric Econometrics: Theory and Practice, translated edition, Peking University Press, 2015.\nISBN: 9787301249673.\n\n\n\nInstructor materials for adopted courses, including slides, assignments, exams, and solution manuals, are available upon request where noted by the publisher companion material.",
+    "crumbs": [
+      "Research",
+      "Books and Monographs"
+    ]
+  },
+  {
+    "objectID": "books.html#books",
+    "href": "books.html#books",
+    "title": "Books and Monographs",
+    "section": "",
+    "text": "Racine, J.S. (2019a), An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using R, Cambridge University Press.\nCambridge University Press\n\n\n\n\nRacine, J.S. (2019b), Reproducible Econometrics Using R, Oxford University Press.\nOxford University Press · Errata\n\n\n\n\n\n\n\nLi, Q. and J.S. Racine (2007), Nonparametric Econometrics: Theory and Practice, Princeton University Press.\nPrinceton University Press · Table of contents · Errata\n\n\n\n\nLi, Q. and J.S. Racine, Nonparametric Econometrics: Theory and Practice, translated edition, Peking University Press, 2015.\nISBN: 9787301249673.\n\n\n\nInstructor materials for adopted courses, including slides, assignments, exams, and solution manuals, are available upon request where noted by the publisher companion material.",
+    "crumbs": [
+      "Research",
+      "Books and Monographs"
+    ]
+  },
+  {
+    "objectID": "books.html#topic-guides",
+    "href": "books.html#topic-guides",
+    "title": "Books and Monographs",
+    "section": "Topic Guides",
+    "text": "Topic Guides\n\nCambridge: Advanced Nonparametric Econometrics\nThe Cambridge book is the most direct companion for modern np / npRmpi work. Its manuscript source covers:\n\nR, RStudio, TeX, Git, and reproducible book workflows;\ndiscrete probability, continuous density and distribution functions, and mixed-data density/distribution methods;\nconditional moment functions, conditional mean regression, conditional variance, conditional density and distribution functions;\nsemiparametric conditional mean models and conditional mean models with endogenous predictors;\ncomputational considerations and practicum material.\n\nPublic-facing companion files are listed on Downloads and Teaching. Instructor-only teaching materials remain available by request.\n\n\nOxford: Reproducible Econometrics Using R\nThe Oxford book is the broad reproducible-computation companion. Its source structure covers:\n\nR, RStudio, TeX, and Git workflows;\nmaximum likelihood estimation and inference;\nrobust parametric estimation and robust inference, including bootstrap and jackknife material;\nmodel uncertainty and model averaging;\nlinear time series methods, including ARIMA, random walks, unit roots, and spurious relationships;\nregression splines and quadratic programming.\n\nThis book is the natural bridge between econometric practice and the reproducible workflow conventions reflected in the package ecosystem.\n\n\nPrinceton: Nonparametric Econometrics\nThe Princeton book remains the theory-and-practice foundation for many estimators implemented in np and npRmpi. The local book corpus includes source and companion material for kernel density, conditional density, CDF/quantile material, censored models, endogenous dependent variables, panel material, mixed smoothing, testing, and applied examples.\nPublic companion files currently surfaced here include the table of contents, errata, Chapter 1, odd-question solutions, and applied-question code.",
+    "crumbs": [
+      "Research",
+      "Books and Monographs"
+    ]
+  },
+  {
+    "objectID": "books.html#monograph",
+    "href": "books.html#monograph",
+    "title": "Books and Monographs",
+    "section": "Monograph",
+    "text": "Monograph\nRacine, J.S. (2008), Nonparametric Econometrics: A Primer, Foundations and Trends in Econometrics, 3(1), 1-88. DOI link.\nThe R code used to replicate examples in the primer is available as a zip archive.\nAn edited Russian translation appeared as Racine, J.S. (2008), “Nonparametric Econometrics: A Primer”, Quantile, Number 4, 7-56.",
+    "crumbs": [
+      "Research",
+      "Books and Monographs"
+    ]
+  },
+  {
+    "objectID": "books.html#edited-volumes",
+    "href": "books.html#edited-volumes",
+    "title": "Books and Monographs",
     "section": "Edited Volumes",
-    "text": "Edited Volumes\n\nOxford Handbook of Semiparametric and Nonparametric Econometric Methods, ISBN 978–0–19–985794–4, Edited By Jeffrey S. Racine, Liangjun Su, and Aman Ullah, Published: 2014.\nAdvances In Econometrics: Nonparametric Econometric Methods, Volume 25, ISBN: 978-1-84950-623-6, Edited by: Qi Li, Jeffrey S. Racine, Published: 2009."
+    "text": "Edited Volumes\n\nOxford Handbook of Semiparametric and Nonparametric Econometric Methods, edited by Jeffrey S. Racine, Liangjun Su, and Aman Ullah, Oxford University Press, 2014.\nAdvances In Econometrics: Nonparametric Econometric Methods, Volume 25, edited by Qi Li and Jeffrey S. Racine, Emerald, 2009.",
+    "crumbs": [
+      "Research",
+      "Books and Monographs"
+    ]
   },
   {
-    "objectID": "index.html#the-r-np-package",
-    "href": "index.html#the-r-np-package",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "The R np Package",
-    "text": "The R np Package\nConsult the np FAQ (pdf) for responses to commonly asked questions and the user manual (pdf) for functions, descriptions, and examples.\nThe R (www.r-project.org) np package (current version 0.60-18) implements a variety of nonparametric and semiparametric kernel-based methods in R, an open source platform for statistical computing and graphics. Methods include kernel regression, kernel density estimation, kernel conditional density estimation, and a range of inferential procedures. See the links to the vignettes below for an overview of both packages (I would advise starting with the np vignette).\nThe np package is the standard package you would use under R, while the npRmpi package is an older version that uses the message passing interface for parallel computing. The npRmpi package is designed for executing batch programs on compute clusters and multi-core computing environments to reduce the run time for computationally intensive jobs. See the example files in the demo directory of the npRmpi package on GitHub for illustrative npRmpi code, and see the examples in the help files and the link for replicating examples for the primer above for code to generate a range of illustrative examples.\nHere is a direct link to the np package on the Comprehensive R Archive Network (CRAN) and a direct link to the CHANGELOG file on CRAN (documents differences between all versions). Note CRAN is no longer hosting npRmpi and the package is now available on GitHub but is not updated as frequently as the np package. See the npRmpi GitHub repository (link below) for an npRmpi MS Windows binary (available as a binary zip file from the GitHub Downloads menu) and a recent npRmpi Mac OS X binary (available as a binary tgz file from the GitHub Downloads menu).\nSee the October 2007 Rnews article (pdf) that describes the np package, the np vignette (pdf) for an overview of the np package, and the entropy-based inference vignette for an overview of computing entropy measures (pdf) (R code).\nSee also the review of the np package that appeared in 2008 in the Journal of Applied Econometrics (link to article in the Wiley Online Library) and the review of the npRmpi package that appeared in 2011 in the Journal of Applied Econometrics (link to article in the Wiley Online Library).\nThese packages are hosted on GitHub (link)."
+    "objectID": "books.html#princeton-companion-files",
+    "href": "books.html#princeton-companion-files",
+    "title": "Books and Monographs",
+    "section": "Princeton Companion Files",
+    "text": "Princeton Companion Files\n\nChapter 1\nSolutions to odd-numbered questions\nR code for applied questions\n\nA solution manual containing code and answers to all questions is available to instructors upon request. Please email a course syllabus and surface mailing address.",
+    "crumbs": [
+      "Research",
+      "Books and Monographs"
+    ]
   },
   {
-    "objectID": "index.html#the-r-crs-package",
-    "href": "index.html#the-r-crs-package",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "The R crs Package",
-    "text": "The R crs Package\nConsult the crs FAQ (pdf) for responses to commonly asked questions and the user manual (pdf) for functions, descriptions, and examples.\nThe R (www.r-project.org) crs package (current version 0.15-31) implements multivariate regression splines (and quantile regression splines as of version 0.15-8) with both continuous and categorical predictors in R, an open source platform for statistical computing and graphics. See the links to the vignettes below for an overview of the package.\nHere is a direct link to the crs package on the Comprehensive R Archive Network (CRAN), a direct link to the CHANGELOG file on CRAN (documents differences between all versions).\nSee the R Journal article (pdf) that describes the crs package, the crs vignette (pdf) for an overview of the crs package and the spline primer vignette for an overview of regression splines (pdf).\nThis package is hosted on GitHub (link)."
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching Materials",
+    "section": "",
+    "text": "Instructor materials are available upon request for adopted courses where appropriate. These may include lecture slides, assignments, exams, and solution manuals.\nFor full instructor solution materials, please email a course syllabus and surface mailing address. Public companion files remain linked on Downloads and Teaching.",
+    "crumbs": [
+      "Research",
+      "Teaching Materials"
+    ]
   },
   {
-    "objectID": "index.html#the-r-ma-package",
-    "href": "index.html#the-r-ma-package",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "The R ma Package",
-    "text": "The R ma Package\nConsult the user manual (pdf) for functions, descriptions, and examples, and the vignette (pdf) for an overview.\nThe R (www.r-project.org) ma package (current version 1.0-8) implements model averaging using a variety of multivariate bases and averaging criteria.\nThis package is hosted on GitHub (link)."
+    "objectID": "teaching.html#instructor-access",
+    "href": "teaching.html#instructor-access",
+    "title": "Teaching Materials",
+    "section": "",
+    "text": "Instructor materials are available upon request for adopted courses where appropriate. These may include lecture slides, assignments, exams, and solution manuals.\nFor full instructor solution materials, please email a course syllabus and surface mailing address. Public companion files remain linked on Downloads and Teaching.",
+    "crumbs": [
+      "Research",
+      "Teaching Materials"
+    ]
   },
   {
-    "objectID": "index.html#the-r-hr-package",
-    "href": "index.html#the-r-hr-package",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "The R hr Package",
-    "text": "The R hr Package\nConsult the user manual (pdf) for functions, descriptions, and examples.\nThe R (www.r-project.org) ma package (current version 1.0-1) implements the Hansen-Racine bootstrap model average unit root test.\nThis package is hosted on GitHub (link)."
+    "objectID": "teaching.html#cambridge-course-materials",
+    "href": "teaching.html#cambridge-course-materials",
+    "title": "Teaching Materials",
+    "section": "Cambridge Course Materials",
+    "text": "Cambridge Course Materials\nThe Cambridge corpus includes manuscript chapters, question files, R code, slides, exams, and supplementary archives for An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics. The public site should emphasize:\n\npublisher and citation links;\npublic companion code archives;\ntopic-level chapter guidance;\ninstructor-material availability by request.\n\nFull solution manuals and exam/assignment banks should remain request-only unless explicitly released.",
+    "crumbs": [
+      "Research",
+      "Teaching Materials"
+    ]
   },
   {
-    "objectID": "index.html#stata-implementations-of-mixed-data-kernel-estimation-racine-li-2004-journal-of-econometrics-li-racine-2004-statistica-sinica",
-    "href": "index.html#stata-implementations-of-mixed-data-kernel-estimation-racine-li-2004-journal-of-econometrics-li-racine-2004-statistica-sinica",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "Stata Implementations of Mixed Data Kernel Estimation (Racine & Li (2004) Journal of Econometrics, Li & Racine (2004) Statistica Sinica)",
-    "text": "Stata Implementations of Mixed Data Kernel Estimation (Racine & Li (2004) Journal of Econometrics, Li & Racine (2004) Statistica Sinica)\nAs of Stata Version 15, Stata users now have access to our mixed-datatype kernel regression methods. See https://www.stata.com/manuals15/rnpregress.pdf for details. The Stata 15 function npregress is the counterpart to the function npreg in the R package np, albeit with different defaults and options."
+    "objectID": "teaching.html#oxford-course-materials",
+    "href": "teaching.html#oxford-course-materials",
+    "title": "Teaching Materials",
+    "section": "Oxford Course Materials",
+    "text": "Oxford Course Materials\nThe Oxford corpus includes book manuscript files, R appendices, questions and answers, time-series material, robust inference material, model uncertainty material, and supplementary files for Reproducible Econometrics Using R. The public site should emphasize:\n\nerrata;\npublic reproducible-code downloads;\nthe role of R, RStudio, TeX, Git, and reproducible workflows;\ninstructor-material availability by request.",
+    "crumbs": [
+      "Research",
+      "Teaching Materials"
+    ]
   },
   {
-    "objectID": "index.html#gallery-of-code-and-applications-for-the-np-nprmpi-and-crs-r-packages",
-    "href": "index.html#gallery-of-code-and-applications-for-the-np-nprmpi-and-crs-r-packages",
-    "title": "Pointers, Tips, Code, and More",
-    "section": "Gallery of Code and Applications for the np, npRmpi, and crs R Packages",
-    "text": "Gallery of Code and Applications for the np, npRmpi, and crs R Packages\nThe following link (link to gallery) will take you to a gallery where you can find some commented examples of working code for a range of estimators contained in the np, npRmpi, and crs packages outlined below. Feel free to email me with suggestions. I welcome code/examples that can be showcased and shared with other users, so please feel free to send me code that you would like to share and I will host it in the gallery along with your contact information."
+    "objectID": "teaching.html#princeton-course-materials",
+    "href": "teaching.html#princeton-course-materials",
+    "title": "Teaching Materials",
+    "section": "Princeton Course Materials",
+    "text": "Princeton Course Materials\nThe Princeton corpus includes book source, errata, examples, exercises, solutions, and applied code for Nonparametric Econometrics: Theory and Practice. Publicly surfaced materials include:\n\ntable of contents;\nChapter 1 from the publisher;\nerrata;\nsolutions to odd-numbered questions;\napplied-question R code.\n\nComplete instructor solutions remain available by request.",
+    "crumbs": [
+      "Research",
+      "Teaching Materials"
+    ]
+  },
+  {
+    "objectID": "teaching.html#recommended-public-site-boundary",
+    "href": "teaching.html#recommended-public-site-boundary",
+    "title": "Teaching Materials",
+    "section": "Recommended Public Site Boundary",
+    "text": "Recommended Public Site Boundary\nFor the public Research site, keep these categories visible:\n\npublic PDFs and code archives;\npublisher pages and citation links;\npackage manuals and vignettes;\ntopic maps connecting books to software;\nclear instructions for instructors requesting restricted material.\n\nKeep these categories out of direct public download unless explicitly approved:\n\nfull instructor solutions;\nexams and assignment banks;\nprivate correspondence, contracts, royalty material, forms, and administrative files;\ndraft review comments or internal production notes.",
+    "crumbs": [
+      "Research",
+      "Teaching Materials"
+    ]
+  },
+  {
+    "objectID": "corpus.html",
+    "href": "corpus.html",
+    "title": "Research Corpus Map",
+    "section": "",
+    "text": "This site collects a research and software corpus rather than a single book companion page. The most useful way to navigate it is by topic.\n\n\n\n\n\n\n\n\nTopic\nPrimary Sources\nSoftware Entry Points\n\n\n\n\nMixed-data kernel smoothing\nPrinceton theory, Cambridge advanced treatment\nnp, npRmpi\n\n\nKernel density, distribution, and quantiles\nPrinceton, Cambridge\nnpudens, npudist, npcdens, npcdist, npqreg\n\n\nConditional mean and regression\nPrinceton, Cambridge\nnpreg, npregbw, predict, plot\n\n\nSemiparametric models\nCambridge, Princeton\nnpplreg, npindex, npscoef\n\n\nEndogeneity and IV-style nonparametric regression\nCambridge, Princeton\nnpregiv routes where applicable\n\n\nRegression splines and categorical predictors\nOxford spline primer, crs article\ncrs, crs-package documentation\n\n\nReproducible computation in R\nOxford, Cambridge setup chapters\nR, RStudio, TeX, Git, Quarto/bookdown workflows\n\n\nRobust inference, resampling, model uncertainty\nOxford\nboot, model averaging materials, legacy ma\n\n\nLarge-data and parallel execution\nPackage vignettes, npRmpi examples\nnpRmpi, MPI profile/attach/session workflows",
+    "crumbs": [
+      "Research",
+      "Research Corpus Map"
+    ]
+  },
+  {
+    "objectID": "corpus.html#how-the-corpus-fits-together",
+    "href": "corpus.html#how-the-corpus-fits-together",
+    "title": "Research Corpus Map",
+    "section": "",
+    "text": "This site collects a research and software corpus rather than a single book companion page. The most useful way to navigate it is by topic.\n\n\n\n\n\n\n\n\nTopic\nPrimary Sources\nSoftware Entry Points\n\n\n\n\nMixed-data kernel smoothing\nPrinceton theory, Cambridge advanced treatment\nnp, npRmpi\n\n\nKernel density, distribution, and quantiles\nPrinceton, Cambridge\nnpudens, npudist, npcdens, npcdist, npqreg\n\n\nConditional mean and regression\nPrinceton, Cambridge\nnpreg, npregbw, predict, plot\n\n\nSemiparametric models\nCambridge, Princeton\nnpplreg, npindex, npscoef\n\n\nEndogeneity and IV-style nonparametric regression\nCambridge, Princeton\nnpregiv routes where applicable\n\n\nRegression splines and categorical predictors\nOxford spline primer, crs article\ncrs, crs-package documentation\n\n\nReproducible computation in R\nOxford, Cambridge setup chapters\nR, RStudio, TeX, Git, Quarto/bookdown workflows\n\n\nRobust inference, resampling, model uncertainty\nOxford\nboot, model averaging materials, legacy ma\n\n\nLarge-data and parallel execution\nPackage vignettes, npRmpi examples\nnpRmpi, MPI profile/attach/session workflows",
+    "crumbs": [
+      "Research",
+      "Research Corpus Map"
+    ]
+  },
+  {
+    "objectID": "corpus.html#reading-paths",
+    "href": "corpus.html#reading-paths",
+    "title": "Research Corpus Map",
+    "section": "Reading Paths",
+    "text": "Reading Paths\nFor audience-specific routes through the corpus, see Reader Pathways.\n\nFor Nonparametric Econometrics\nStart with Li and Racine (2007) for the broad theoretical foundation, then use Racine (2019a) for a replicable R-centered treatment of advanced topics. The np package article (2008) and package vignettes connect these methods to day-to-day R workflows.\n\n\nFor Reproducible Econometrics\nStart with Racine (2019b) for reproducible R workflows, robust inference, time series, model uncertainty, and related computational tools. Use the Downloads and Teaching page for public errata and companion code.\n\n\nFor Package Users\nUse the R Packages page for current package links, package versions, CRAN/manual/vignette pointers, and GitHub source repositories. Use the Gallery of Code for worked examples and current package-oriented snippets.",
+    "crumbs": [
+      "Research",
+      "Research Corpus Map"
+    ]
+  },
+  {
+    "objectID": "corpus.html#public-versus-instructor-materials",
+    "href": "corpus.html#public-versus-instructor-materials",
+    "title": "Research Corpus Map",
+    "section": "Public Versus Instructor Materials",
+    "text": "Public Versus Instructor Materials\nThe public site should surface durable public materials: publisher links, errata, companion code, public manuals, vignettes, package articles, and selected solution material that is already intended for public use.\nInstructor-only material, including full solutions manuals, exams, assignments, and private slide decks for adopting instructors, should be described here but not published directly unless explicitly intended for public distribution.",
+    "crumbs": [
+      "Research",
+      "Research Corpus Map"
+    ]
+  },
+  {
+    "objectID": "corpus.html#site-maintenance-guidance",
+    "href": "corpus.html#site-maintenance-guidance",
+    "title": "Research Corpus Map",
+    "section": "Site Maintenance Guidance",
+    "text": "Site Maintenance Guidance\nFor future updates, this Research site should stay organized around durable reader questions:\n\nWhich book or package should I start with?\nWhere are the public companion files?\nWhich software implements a given method family?\nWhich materials are public, and which require an instructor request?\nHow does this site relate to the package Gallery?\n\nThe Gallery can stay code-first; this site should stay corpus-first.",
+    "crumbs": [
+      "Research",
+      "Research Corpus Map"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is hosted on GitHub Pages and is linked to from my main academic and professional profile.\nFor current institutional information, see my McMaster profile. For package-oriented examples and current code snippets, see the Gallery of Code.\nYou can contact me at racinej@mcmaster.ca.\nThis Research site is intended as the corpus-level companion to my books and software. It points readers to public book resources, software documentation, package repositories, and teaching-material request instructions.\n\n\n\n Back to top",
+    "crumbs": [
+      "Research",
+      "About"
+    ]
+  },
+  {
+    "objectID": "pathways.html",
+    "href": "pathways.html",
+    "title": "Reader Pathways",
+    "section": "",
+    "text": "Different readers arrive with different questions. These pathways point to the most useful first stops without requiring a full tour of the site.\n\n\nStart with the book that matches the course level.\n\nFor nonparametric econometrics, begin with the Princeton book for foundations or the Cambridge book for the R-centered advanced treatment.\nFor reproducible applied econometrics, begin with the Oxford book.\nUse Downloads and Teaching for public errata, code archives, and companion PDFs.\nUse the Gallery of Code when you want runnable examples tied to np, npRmpi, and crs.\n\n\n\n\nUse this site to identify the public companion surface, then request restricted materials when appropriate.\n\nReview Books and Monographs for book-specific companion notes.\nReview Teaching Materials for the public/instructor-only boundary.\nPublicly linked resources include errata, selected companion code, selected solutions, and package documentation.\nFull instructor solution materials, exams, assignments, and slide banks remain request-only unless explicitly released.\n\n\n\n\nStart from the empirical task, then move to the relevant book and package.\n\nFor mixed continuous/categorical kernel smoothing, start with np and the Princeton/Cambridge material.\nFor large computational jobs, use npRmpi as the MPI-aware companion to np.\nFor categorical regression splines and quantile regression splines, start with crs and the Oxford spline material.\nUse the Gallery for current worked examples and this Research site for durable references, errata, and citation paths.\n\n\n\n\nStart with the software page, then move outward to examples and theory.\n\nUse R Packages for current package versions, CRAN links, GitHub repositories, manuals, and vignettes.\nUse the Gallery of Code for working examples and package usage notes.\nUse the Research Corpus Map when you want to connect a function family to its book-level method background.\nCite the relevant package article, book, or manual depending on the workflow.\n\n\n\n\nStart with the theory and implementation relationship.\n\nUse Li and Racine (2007) for the broad theory-and-practice foundation.\nUse Racine (2019) for an R-centered advanced treatment of conditional moments, density/distribution methods, semiparametric models, and computation.\nUse the np and npRmpi source repositories to inspect implementation details.\nTreat np as the serial source-of-truth implementation and npRmpi as the MPI-aware sibling for parallel execution.\n\n\n\n\nStart from the artifact you used.\n\nCite the relevant book when the method, theory, or exposition came from the book corpus.\nCite Hayfield and Racine (2008) for the np package article.\nCite Nie and Racine (2012) for the crs package article.\nUse package manuals and CRAN/GitHub pages for current software-version details.",
+    "crumbs": [
+      "Research",
+      "Reader Pathways"
+    ]
+  },
+  {
+    "objectID": "pathways.html#choose-a-starting-point",
+    "href": "pathways.html#choose-a-starting-point",
+    "title": "Reader Pathways",
+    "section": "",
+    "text": "Different readers arrive with different questions. These pathways point to the most useful first stops without requiring a full tour of the site.\n\n\nStart with the book that matches the course level.\n\nFor nonparametric econometrics, begin with the Princeton book for foundations or the Cambridge book for the R-centered advanced treatment.\nFor reproducible applied econometrics, begin with the Oxford book.\nUse Downloads and Teaching for public errata, code archives, and companion PDFs.\nUse the Gallery of Code when you want runnable examples tied to np, npRmpi, and crs.\n\n\n\n\nUse this site to identify the public companion surface, then request restricted materials when appropriate.\n\nReview Books and Monographs for book-specific companion notes.\nReview Teaching Materials for the public/instructor-only boundary.\nPublicly linked resources include errata, selected companion code, selected solutions, and package documentation.\nFull instructor solution materials, exams, assignments, and slide banks remain request-only unless explicitly released.\n\n\n\n\nStart from the empirical task, then move to the relevant book and package.\n\nFor mixed continuous/categorical kernel smoothing, start with np and the Princeton/Cambridge material.\nFor large computational jobs, use npRmpi as the MPI-aware companion to np.\nFor categorical regression splines and quantile regression splines, start with crs and the Oxford spline material.\nUse the Gallery for current worked examples and this Research site for durable references, errata, and citation paths.\n\n\n\n\nStart with the software page, then move outward to examples and theory.\n\nUse R Packages for current package versions, CRAN links, GitHub repositories, manuals, and vignettes.\nUse the Gallery of Code for working examples and package usage notes.\nUse the Research Corpus Map when you want to connect a function family to its book-level method background.\nCite the relevant package article, book, or manual depending on the workflow.\n\n\n\n\nStart with the theory and implementation relationship.\n\nUse Li and Racine (2007) for the broad theory-and-practice foundation.\nUse Racine (2019) for an R-centered advanced treatment of conditional moments, density/distribution methods, semiparametric models, and computation.\nUse the np and npRmpi source repositories to inspect implementation details.\nTreat np as the serial source-of-truth implementation and npRmpi as the MPI-aware sibling for parallel execution.\n\n\n\n\nStart from the artifact you used.\n\nCite the relevant book when the method, theory, or exposition came from the book corpus.\nCite Hayfield and Racine (2008) for the np package article.\nCite Nie and Racine (2012) for the crs package article.\nUse package manuals and CRAN/GitHub pages for current software-version details.",
+    "crumbs": [
+      "Research",
+      "Reader Pathways"
+    ]
+  },
+  {
+    "objectID": "pathways.html#fast-routes-by-topic",
+    "href": "pathways.html#fast-routes-by-topic",
+    "title": "Reader Pathways",
+    "section": "Fast Routes By Topic",
+    "text": "Fast Routes By Topic\n\n\n\nIf you need…\nStart Here\nThen Go To\n\n\n\n\nA first nonparametric econometrics reference\nPrinceton book\nCambridge book, np package\n\n\nReplicable R-centered econometrics\nOxford book\nGallery examples\n\n\nMixed-data kernel regression\nnpreg / npregbw\nPrinceton and Cambridge regression chapters\n\n\nDensity, distribution, and quantiles\nnpudens, npudist, npcdens, npcdist, npqreg\nPrinceton and Cambridge probability/density material\n\n\nSemiparametric models\nnpplreg, npindex, npscoef\nCambridge semiparametric chapters\n\n\nRegression splines\ncrs\nOxford spline primer and crs article\n\n\nParallel kernel computation\nnpRmpi\nPackage demos and Gallery scaling notes\n\n\nPublic companion downloads\nDownloads and Teaching\nTeaching Materials",
+    "crumbs": [
+      "Research",
+      "Reader Pathways"
+    ]
+  },
+  {
+    "objectID": "pathways.html#site-roles",
+    "href": "pathways.html#site-roles",
+    "title": "Reader Pathways",
+    "section": "Site Roles",
+    "text": "Site Roles\nUse this site as the durable research map. Use the Gallery as the active code-example layer. Use CRAN, package manuals, and GitHub repositories for current software installation and source details.",
+    "crumbs": [
+      "Research",
+      "Reader Pathways"
+    ]
   }
 ]

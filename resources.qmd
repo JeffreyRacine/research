@@ -1,0 +1,41 @@
+---
+title: "Downloads and Teaching"
+---
+
+## Book Companion Downloads
+
+| Resource | Type |
+|---|---|
+| [Nonparametric Econometrics: A Primer](www/ECO0301.pdf) | PDF |
+| [Primer replication code](www/primer_code.zip) | ZIP |
+| [Oxford errata](www/errata_Oxford.pdf) | PDF |
+| [Princeton table of contents](www/pup_toc.pdf) | PDF |
+| [Princeton errata](www/pup_errata.pdf) | PDF |
+| [Solutions to odd-numbered Princeton questions](www/Solutions_Odd.pdf) | PDF |
+| [Applied-question R code](www/Solutions_code.zip) | ZIP |
+
+## Public Access Notes
+
+The downloads above are the public companion resources currently surfaced by this site. The larger local book corpus also contains source manuscripts, teaching decks, exams, assignment files, full solution material, publisher correspondence, and administrative files. Those are not automatically public-site materials.
+
+For adopted courses, instructor-only materials may be requested as described on [Teaching Materials](teaching.qmd).
+
+## Package Companion Downloads
+
+| Resource | Type |
+|---|---|
+| [Entropy vignette R code](www/entropy_np.R) | R script |
+| [`ma` user manual](www/ma-manual.pdf) | PDF |
+| [`ma` vignette](www/ma-vignette.pdf) | PDF |
+| [`hr` user manual](www/hr-manual.pdf) | PDF |
+
+## Instructor Materials
+
+Lecture slides, assignments, exams, and solution manuals are available upon request for instructors who adopt the relevant books. Where a complete instructor solution manual is requested, please email a course syllabus and surface mailing address.
+
+## Related Sites
+
+- [Gallery of Code](https://jeffreyracine.github.io/gallery/)
+- [McMaster profile](https://experts.mcmaster.ca/display/racinej)
+- [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
+- [`crs` on CRAN](https://cran.r-project.org/web/packages/crs/index.html)

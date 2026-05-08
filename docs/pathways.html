@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Jeffrey S. Racine Research</title>
+<title>Reader Pathways – Jeffrey S. Racine Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,7 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./resources.html" rel="prev">
+<link href="./software.html" rel="next">
+<link href="./corpus.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -114,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./pathways.html">Reader Pathways</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -163,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pathways.html" class="sidebar-item-text sidebar-link">
+  <a href="./pathways.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Reader Pathways</span></a>
   </div>
 </li>
@@ -187,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
@@ -198,15 +218,31 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#choose-a-starting-point" id="toc-choose-a-starting-point" class="nav-link active" data-scroll-target="#choose-a-starting-point">Choose A Starting Point</a>
+  <ul class="collapse">
+  <li><a href="#students" id="toc-students" class="nav-link" data-scroll-target="#students">Students</a></li>
+  <li><a href="#instructors" id="toc-instructors" class="nav-link" data-scroll-target="#instructors">Instructors</a></li>
+  <li><a href="#applied-researchers" id="toc-applied-researchers" class="nav-link" data-scroll-target="#applied-researchers">Applied Researchers</a></li>
+  <li><a href="#package-users" id="toc-package-users" class="nav-link" data-scroll-target="#package-users">Package Users</a></li>
+  <li><a href="#method-developers" id="toc-method-developers" class="nav-link" data-scroll-target="#method-developers">Method Developers</a></li>
+  <li><a href="#readers-looking-for-a-citation" id="toc-readers-looking-for-a-citation" class="nav-link" data-scroll-target="#readers-looking-for-a-citation">Readers Looking For A Citation</a></li>
+  </ul></li>
+  <li><a href="#fast-routes-by-topic" id="toc-fast-routes-by-topic" class="nav-link" data-scroll-target="#fast-routes-by-topic">Fast Routes By Topic</a></li>
+  <li><a href="#site-roles" id="toc-site-roles" class="nav-link" data-scroll-target="#site-roles">Site Roles</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/pathways.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./pathways.html">Reader Pathways</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Reader Pathways</h1>
 </div>
 
 
@@ -223,14 +259,146 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This site is hosted on GitHub Pages and is linked to from my main academic and professional profile.</p>
-<p>For current institutional information, see my <a href="https://experts.mcmaster.ca/display/racinej">McMaster profile</a>. For package-oriented examples and current code snippets, see the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a>.</p>
-<p>You can contact me at <a href="mailto:racinej@mcmaster.ca">racinej@mcmaster.ca</a>.</p>
-<p>This Research site is intended as the corpus-level companion to my books and software. It points readers to public book resources, software documentation, package repositories, and teaching-material request instructions.</p>
+<section id="choose-a-starting-point" class="level2">
+<h2 class="anchored" data-anchor-id="choose-a-starting-point">Choose A Starting Point</h2>
+<p>Different readers arrive with different questions. These pathways point to the most useful first stops without requiring a full tour of the site.</p>
+<section id="students" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="students">Students</h3>
+<p>Start with the book that matches the course level.</p>
+<ol type="1">
+<li>For nonparametric econometrics, begin with the Princeton book for foundations or the Cambridge book for the R-centered advanced treatment.</li>
+<li>For reproducible applied econometrics, begin with the Oxford book.</li>
+<li>Use <a href="./resources.html">Downloads and Teaching</a> for public errata, code archives, and companion PDFs.</li>
+<li>Use the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a> when you want runnable examples tied to <code>np</code>, <code>npRmpi</code>, and <code>crs</code>.</li>
+</ol>
+</section>
+<section id="instructors" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="instructors">Instructors</h3>
+<p>Use this site to identify the public companion surface, then request restricted materials when appropriate.</p>
+<ol type="1">
+<li>Review <a href="./books.html">Books and Monographs</a> for book-specific companion notes.</li>
+<li>Review <a href="./teaching.html">Teaching Materials</a> for the public/instructor-only boundary.</li>
+<li>Publicly linked resources include errata, selected companion code, selected solutions, and package documentation.</li>
+<li>Full instructor solution materials, exams, assignments, and slide banks remain request-only unless explicitly released.</li>
+</ol>
+</section>
+<section id="applied-researchers" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="applied-researchers">Applied Researchers</h3>
+<p>Start from the empirical task, then move to the relevant book and package.</p>
+<ol type="1">
+<li>For mixed continuous/categorical kernel smoothing, start with <code>np</code> and the Princeton/Cambridge material.</li>
+<li>For large computational jobs, use <code>npRmpi</code> as the MPI-aware companion to <code>np</code>.</li>
+<li>For categorical regression splines and quantile regression splines, start with <code>crs</code> and the Oxford spline material.</li>
+<li>Use the Gallery for current worked examples and this Research site for durable references, errata, and citation paths.</li>
+</ol>
+</section>
+<section id="package-users" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="package-users">Package Users</h3>
+<p>Start with the software page, then move outward to examples and theory.</p>
+<ol type="1">
+<li>Use <a href="./software.html">R Packages</a> for current package versions, CRAN links, GitHub repositories, manuals, and vignettes.</li>
+<li>Use the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a> for working examples and package usage notes.</li>
+<li>Use the <a href="./corpus.html">Research Corpus Map</a> when you want to connect a function family to its book-level method background.</li>
+<li>Cite the relevant package article, book, or manual depending on the workflow.</li>
+</ol>
+</section>
+<section id="method-developers" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="method-developers">Method Developers</h3>
+<p>Start with the theory and implementation relationship.</p>
+<ol type="1">
+<li>Use Li and Racine <span class="citation" data-cites="li_racine_2007">(<a href="#ref-li_racine_2007" role="doc-biblioref">2007</a>)</span> for the broad theory-and-practice foundation.</li>
+<li>Use Racine <span class="citation" data-cites="racine_cambridge_2019">(<a href="#ref-racine_cambridge_2019" role="doc-biblioref">2019</a>)</span> for an R-centered advanced treatment of conditional moments, density/distribution methods, semiparametric models, and computation.</li>
+<li>Use the <code>np</code> and <code>npRmpi</code> source repositories to inspect implementation details.</li>
+<li>Treat <code>np</code> as the serial source-of-truth implementation and <code>npRmpi</code> as the MPI-aware sibling for parallel execution.</li>
+</ol>
+</section>
+<section id="readers-looking-for-a-citation" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="readers-looking-for-a-citation">Readers Looking For A Citation</h3>
+<p>Start from the artifact you used.</p>
+<ol type="1">
+<li>Cite the relevant book when the method, theory, or exposition came from the book corpus.</li>
+<li>Cite Hayfield and Racine <span class="citation" data-cites="np">(<a href="#ref-np" role="doc-biblioref">2008</a>)</span> for the <code>np</code> package article.</li>
+<li>Cite Nie and Racine <span class="citation" data-cites="Nie2012TheCP">(<a href="#ref-Nie2012TheCP" role="doc-biblioref">2012</a>)</span> for the <code>crs</code> package article.</li>
+<li>Use package manuals and CRAN/GitHub pages for current software-version details.</li>
+</ol>
+</section>
+</section>
+<section id="fast-routes-by-topic" class="level2">
+<h2 class="anchored" data-anchor-id="fast-routes-by-topic">Fast Routes By Topic</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>If you need…</th>
+<th>Start Here</th>
+<th>Then Go To</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A first nonparametric econometrics reference</td>
+<td>Princeton book</td>
+<td>Cambridge book, <code>np</code> package</td>
+</tr>
+<tr class="even">
+<td>Replicable R-centered econometrics</td>
+<td>Oxford book</td>
+<td>Gallery examples</td>
+</tr>
+<tr class="odd">
+<td>Mixed-data kernel regression</td>
+<td><code>npreg</code> / <code>npregbw</code></td>
+<td>Princeton and Cambridge regression chapters</td>
+</tr>
+<tr class="even">
+<td>Density, distribution, and quantiles</td>
+<td><code>npudens</code>, <code>npudist</code>, <code>npcdens</code>, <code>npcdist</code>, <code>npqreg</code></td>
+<td>Princeton and Cambridge probability/density material</td>
+</tr>
+<tr class="odd">
+<td>Semiparametric models</td>
+<td><code>npplreg</code>, <code>npindex</code>, <code>npscoef</code></td>
+<td>Cambridge semiparametric chapters</td>
+</tr>
+<tr class="even">
+<td>Regression splines</td>
+<td><code>crs</code></td>
+<td>Oxford spline primer and <code>crs</code> article</td>
+</tr>
+<tr class="odd">
+<td>Parallel kernel computation</td>
+<td><code>npRmpi</code></td>
+<td>Package demos and Gallery scaling notes</td>
+</tr>
+<tr class="even">
+<td>Public companion downloads</td>
+<td><a href="./resources.html">Downloads and Teaching</a></td>
+<td><a href="./teaching.html">Teaching Materials</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="site-roles" class="level2">
+<h2 class="anchored" data-anchor-id="site-roles">Site Roles</h2>
+<p>Use this site as the durable research map. Use the Gallery as the active code-example layer. Use CRAN, package manuals, and GitHub repositories for current software installation and source details.</p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-np" class="csl-entry" role="listitem">
+Hayfield, Tristen, and Jeffrey S. Racine. 2008. <span>“Nonparametric Econometrics: The <span class="nocase">np</span> Package.”</span> <em>Journal of Statistical Software</em> 27 (5): 1–32. <a href="https://doi.org/10.18637/jss.v027.i05">https://doi.org/10.18637/jss.v027.i05</a>.
+</div>
+<div id="ref-li_racine_2007" class="csl-entry" role="listitem">
+Li, Q., and J. Racine. 2007. <em>Nonparametric Econometrics: Theory and Practice</em>. Princeton University Press. <a href="https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics">https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics</a>.
+</div>
+<div id="ref-Nie2012TheCP" class="csl-entry" role="listitem">
+Nie, Zhenghua, and Jeffrey S. Racine. 2012. <span>“The <span class="nocase">crs</span> Package: Nonparametric Regression Splines for Continuous and Categorical Predictors.”</span> <em>R J.</em> 4: 48. <a href="https://api.semanticscholar.org/CorpusID:10908672">https://api.semanticscholar.org/CorpusID:10908672</a>.
+</div>
+<div id="ref-racine_cambridge_2019" class="csl-entry" role="listitem">
+Racine, Jeffrey S. 2019. <em>An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using <span>R</span></em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781108649841">https://doi.org/10.1017/9781108649841</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -638,11 +806,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./resources.html" class="pagination-link" aria-label="Downloads and Teaching">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Downloads and Teaching</span>
+      <a href="./corpus.html" class="pagination-link" aria-label="Research Corpus Map">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Research Corpus Map</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./software.html" class="pagination-link" aria-label="R Packages">
+        <span class="nav-page-text">R Packages</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -653,7 +824,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/pathways.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

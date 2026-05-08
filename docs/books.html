@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Jeffrey S. Racine Research</title>
+<title>Books and Monographs – Jeffrey S. Racine Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,7 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./resources.html" rel="prev">
+<link href="./corpus.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -114,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./books.html">Books and Monographs</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -151,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">
+  <a href="./books.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Books and Monographs</span></a>
   </div>
 </li>
@@ -187,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
@@ -198,15 +218,30 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#books" id="toc-books" class="nav-link active" data-scroll-target="#books">Books</a></li>
+  <li><a href="#topic-guides" id="toc-topic-guides" class="nav-link" data-scroll-target="#topic-guides">Topic Guides</a>
+  <ul class="collapse">
+  <li><a href="#cambridge-advanced-nonparametric-econometrics" id="toc-cambridge-advanced-nonparametric-econometrics" class="nav-link" data-scroll-target="#cambridge-advanced-nonparametric-econometrics">Cambridge: Advanced Nonparametric Econometrics</a></li>
+  <li><a href="#oxford-reproducible-econometrics-using-r" id="toc-oxford-reproducible-econometrics-using-r" class="nav-link" data-scroll-target="#oxford-reproducible-econometrics-using-r">Oxford: Reproducible Econometrics Using R</a></li>
+  <li><a href="#princeton-nonparametric-econometrics" id="toc-princeton-nonparametric-econometrics" class="nav-link" data-scroll-target="#princeton-nonparametric-econometrics">Princeton: Nonparametric Econometrics</a></li>
+  </ul></li>
+  <li><a href="#monograph" id="toc-monograph" class="nav-link" data-scroll-target="#monograph">Monograph</a></li>
+  <li><a href="#edited-volumes" id="toc-edited-volumes" class="nav-link" data-scroll-target="#edited-volumes">Edited Volumes</a></li>
+  <li><a href="#princeton-companion-files" id="toc-princeton-companion-files" class="nav-link" data-scroll-target="#princeton-companion-files">Princeton Companion Files</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/books.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./books.html">Books and Monographs</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Books and Monographs</h1>
 </div>
 
 
@@ -223,14 +258,110 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This site is hosted on GitHub Pages and is linked to from my main academic and professional profile.</p>
-<p>For current institutional information, see my <a href="https://experts.mcmaster.ca/display/racinej">McMaster profile</a>. For package-oriented examples and current code snippets, see the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a>.</p>
-<p>You can contact me at <a href="mailto:racinej@mcmaster.ca">racinej@mcmaster.ca</a>.</p>
-<p>This Research site is intended as the corpus-level companion to my books and software. It points readers to public book resources, software documentation, package repositories, and teaching-material request instructions.</p>
+<section id="books" class="level2">
+<h2 class="anchored" data-anchor-id="books">Books</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="advanced-nonparametric-econometrics" class="level3 book-card">
+<h3 class="anchored" data-anchor-id="advanced-nonparametric-econometrics">Advanced Nonparametric Econometrics</h3>
+<p>Racine, J.S. <span class="citation" data-cites="racine_cambridge_2019">(<a href="#ref-racine_cambridge_2019" role="doc-biblioref">2019a</a>)</span>, <em>An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using R</em>, Cambridge University Press.</p>
+<p><a href="https://www.cambridge.org/br/academic/subjects/economics/econometrics-statistics-and-mathematical-economics/introduction-advanced-theory-and-practice-nonparametric-econometrics-replicable-approach-using-r?format=HB">Cambridge University Press</a></p>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="reproducible-econometrics-using-r" class="level3 book-card">
+<h3 class="anchored" data-anchor-id="reproducible-econometrics-using-r">Reproducible Econometrics Using R</h3>
+<p>Racine, J.S. <span class="citation" data-cites="racine_oxford_2019">(<a href="#ref-racine_oxford_2019" role="doc-biblioref">2019b</a>)</span>, <em>Reproducible Econometrics Using R</em>, Oxford University Press.</p>
+<p><a href="https://global.oup.com/academic/product/reproducible-econometrics-using-r-9780190900663">Oxford University Press</a> · <a href="www/errata_Oxford.pdf">Errata</a></p>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="nonparametric-econometrics" class="level3 book-card">
+<h3 class="anchored" data-anchor-id="nonparametric-econometrics">Nonparametric Econometrics</h3>
+<p>Li, Q. and J.S. Racine <span class="citation" data-cites="li_racine_2007">(<a href="#ref-li_racine_2007" role="doc-biblioref">2007</a>)</span>, <em>Nonparametric Econometrics: Theory and Practice</em>, Princeton University Press.</p>
+<p><a href="https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics">Princeton University Press</a> · <a href="www/pup_toc.pdf">Table of contents</a> · <a href="www/pup_errata.pdf">Errata</a></p>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="chinese-translation" class="level3 book-card">
+<h3 class="anchored" data-anchor-id="chinese-translation">Chinese Translation</h3>
+<p>Li, Q. and J.S. Racine, <em>Nonparametric Econometrics: Theory and Practice</em>, translated edition, Peking University Press, 2015.</p>
+<p>ISBN: 9787301249673.</p>
+</section>
+</div>
+</div>
+<p>Instructor materials for adopted courses, including slides, assignments, exams, and solution manuals, are available upon request where noted by the publisher companion material.</p>
+</section>
+<section id="topic-guides" class="level2">
+<h2 class="anchored" data-anchor-id="topic-guides">Topic Guides</h2>
+<section id="cambridge-advanced-nonparametric-econometrics" class="level3">
+<h3 class="anchored" data-anchor-id="cambridge-advanced-nonparametric-econometrics">Cambridge: Advanced Nonparametric Econometrics</h3>
+<p>The Cambridge book is the most direct companion for modern <code>np</code> / <code>npRmpi</code> work. Its manuscript source covers:</p>
+<ul>
+<li>R, RStudio, TeX, Git, and reproducible book workflows;</li>
+<li>discrete probability, continuous density and distribution functions, and mixed-data density/distribution methods;</li>
+<li>conditional moment functions, conditional mean regression, conditional variance, conditional density and distribution functions;</li>
+<li>semiparametric conditional mean models and conditional mean models with endogenous predictors;</li>
+<li>computational considerations and practicum material.</li>
+</ul>
+<p>Public-facing companion files are listed on <a href="./resources.html">Downloads and Teaching</a>. Instructor-only teaching materials remain available by request.</p>
+</section>
+<section id="oxford-reproducible-econometrics-using-r" class="level3">
+<h3 class="anchored" data-anchor-id="oxford-reproducible-econometrics-using-r">Oxford: Reproducible Econometrics Using R</h3>
+<p>The Oxford book is the broad reproducible-computation companion. Its source structure covers:</p>
+<ul>
+<li>R, RStudio, TeX, and Git workflows;</li>
+<li>maximum likelihood estimation and inference;</li>
+<li>robust parametric estimation and robust inference, including bootstrap and jackknife material;</li>
+<li>model uncertainty and model averaging;</li>
+<li>linear time series methods, including ARIMA, random walks, unit roots, and spurious relationships;</li>
+<li>regression splines and quadratic programming.</li>
+</ul>
+<p>This book is the natural bridge between econometric practice and the reproducible workflow conventions reflected in the package ecosystem.</p>
+</section>
+<section id="princeton-nonparametric-econometrics" class="level3">
+<h3 class="anchored" data-anchor-id="princeton-nonparametric-econometrics">Princeton: Nonparametric Econometrics</h3>
+<p>The Princeton book remains the theory-and-practice foundation for many estimators implemented in <code>np</code> and <code>npRmpi</code>. The local book corpus includes source and companion material for kernel density, conditional density, CDF/quantile material, censored models, endogenous dependent variables, panel material, mixed smoothing, testing, and applied examples.</p>
+<p>Public companion files currently surfaced here include the table of contents, errata, Chapter 1, odd-question solutions, and applied-question code.</p>
+</section>
+</section>
+<section id="monograph" class="level2">
+<h2 class="anchored" data-anchor-id="monograph">Monograph</h2>
+<p>Racine, J.S. (2008), <a href="www/ECO0301.pdf"><em>Nonparametric Econometrics: A Primer</em></a>, <em>Foundations and Trends in Econometrics</em>, 3(1), 1-88. <a href="https://dx.doi.org/10.1561/0800000009">DOI link</a>.</p>
+<p>The R code used to replicate examples in the primer is available as a <a href="www/primer_code.zip">zip archive</a>.</p>
+<p>An edited Russian translation appeared as Racine, J.S. (2008), “<a href="https://quantile.ru/04/04-JR.pdf">Nonparametric Econometrics: A Primer</a>”, <em>Quantile</em>, Number 4, 7-56.</p>
+</section>
+<section id="edited-volumes" class="level2">
+<h2 class="anchored" data-anchor-id="edited-volumes">Edited Volumes</h2>
+<ul>
+<li><em>Oxford Handbook of Semiparametric and Nonparametric Econometric Methods</em>, edited by Jeffrey S. Racine, Liangjun Su, and Aman Ullah, Oxford University Press, 2014.</li>
+<li><em>Advances In Econometrics: Nonparametric Econometric Methods</em>, Volume 25, edited by Qi Li and Jeffrey S. Racine, Emerald, 2009.</li>
+</ul>
+</section>
+<section id="princeton-companion-files" class="level2">
+<h2 class="anchored" data-anchor-id="princeton-companion-files">Princeton Companion Files</h2>
+<ul>
+<li><a href="https://press.princeton.edu/chapters/s8355.pdf">Chapter 1</a></li>
+<li><a href="www/Solutions_Odd.pdf">Solutions to odd-numbered questions</a></li>
+<li><a href="www/Solutions_code.zip">R code for applied questions</a></li>
+</ul>
+<p>A solution manual containing code and answers to all questions is available to instructors upon request. Please email a course syllabus and surface mailing address.</p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-li_racine_2007" class="csl-entry" role="listitem">
+Li, Q., and J. Racine. 2007. <em>Nonparametric Econometrics: Theory and Practice</em>. Princeton University Press. <a href="https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics">https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics</a>.
+</div>
+<div id="ref-racine_cambridge_2019" class="csl-entry" role="listitem">
+Racine, Jeffrey S. 2019a. <em>An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using <span>R</span></em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781108649841">https://doi.org/10.1017/9781108649841</a>.
+</div>
+<div id="ref-racine_oxford_2019" class="csl-entry" role="listitem">
+Racine, Jeffrey S. 2019b. <em>Reproducible Econometrics Using <span>R</span></em>. Oxford University Press.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -638,11 +769,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./resources.html" class="pagination-link" aria-label="Downloads and Teaching">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Downloads and Teaching</span>
+      <a href="./index.html" class="pagination-link" aria-label="Overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./corpus.html" class="pagination-link" aria-label="Research Corpus Map">
+        <span class="nav-page-text">Research Corpus Map</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -653,7 +787,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/books.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

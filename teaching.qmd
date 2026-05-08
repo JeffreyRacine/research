@@ -1,0 +1,58 @@
+---
+title: "Teaching Materials"
+---
+
+## Instructor Access
+
+Instructor materials are available upon request for adopted courses where appropriate. These may include lecture slides, assignments, exams, and solution manuals.
+
+For full instructor solution materials, please email a course syllabus and surface mailing address. Public companion files remain linked on [Downloads and Teaching](resources.qmd).
+
+## Cambridge Course Materials
+
+The Cambridge corpus includes manuscript chapters, question files, R code, slides, exams, and supplementary archives for *An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics*. The public site should emphasize:
+
+- publisher and citation links;
+- public companion code archives;
+- topic-level chapter guidance;
+- instructor-material availability by request.
+
+Full solution manuals and exam/assignment banks should remain request-only unless explicitly released.
+
+## Oxford Course Materials
+
+The Oxford corpus includes book manuscript files, R appendices, questions and answers, time-series material, robust inference material, model uncertainty material, and supplementary files for *Reproducible Econometrics Using R*. The public site should emphasize:
+
+- errata;
+- public reproducible-code downloads;
+- the role of R, RStudio, TeX, Git, and reproducible workflows;
+- instructor-material availability by request.
+
+## Princeton Course Materials
+
+The Princeton corpus includes book source, errata, examples, exercises, solutions, and applied code for *Nonparametric Econometrics: Theory and Practice*. Publicly surfaced materials include:
+
+- table of contents;
+- Chapter 1 from the publisher;
+- errata;
+- solutions to odd-numbered questions;
+- applied-question R code.
+
+Complete instructor solutions remain available by request.
+
+## Recommended Public Site Boundary
+
+For the public Research site, keep these categories visible:
+
+- public PDFs and code archives;
+- publisher pages and citation links;
+- package manuals and vignettes;
+- topic maps connecting books to software;
+- clear instructions for instructors requesting restricted material.
+
+Keep these categories out of direct public download unless explicitly approved:
+
+- full instructor solutions;
+- exams and assignment banks;
+- private correspondence, contracts, royalty material, forms, and administrative files;
+- draft review comments or internal production notes.

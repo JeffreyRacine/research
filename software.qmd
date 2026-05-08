@@ -1,0 +1,86 @@
+---
+title: "R Packages"
+bibliography: references.bib
+---
+
+## `np` and `npRmpi`
+
+The `np` package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.
+
+The current local source version is `np` 0.70-2. The MPI-aware sibling `npRmpi` is also at 0.70-2 locally and is designed for batch programs on clusters and multi-core environments where computationally intensive jobs benefit from explicit message passing.
+
+::: {.resource-card}
+### Package Pointers
+
+- [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
+- [`np` changelog on CRAN](https://cran.r-project.org/web/packages/np/ChangeLog)
+- [`np` FAQ](https://cran.r-project.org/web/packages/np/vignettes/np_faq.pdf)
+- [`np` user manual](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)
+- [`np` and `npRmpi` source repository](https://github.com/JeffreyRacine/R-Package-np/)
+- [Gallery examples for `np`, `npRmpi`, and `crs`](https://jeffreyracine.github.io/gallery/)
+:::
+
+The original package article is Hayfield and Racine [-@np]. See also the October 2007 *R News* article [PDF](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf), the entropy vignette [PDF](https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf), and the accompanying [R code](www/entropy_np.R).
+
+Reviews appeared in the *Journal of Applied Econometrics* for [`np`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract) and [`npRmpi`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract).
+
+### Method Families
+
+| Family | Typical Functions | Notes |
+|---|---|---|
+| Kernel regression | `npreg`, `npregbw` | Conditional mean estimation and prediction for mixed data. |
+| Unconditional density/distribution | `npudens`, `npudensbw`, `npudist`, `npudistbw` | Density and distribution estimation with continuous and discrete variables. |
+| Conditional density/distribution | `npcdens`, `npcdensbw`, `npcdist`, `npcdistbw` | Conditional PDF/CDF workflows, including quantile-related use cases. |
+| Quantile regression | `npqreg` | Nonparametric conditional quantiles derived from conditional distribution machinery. |
+| Semiparametric models | `npplreg`, `npindex`, `npscoef` | Partially linear, single-index, and smooth-coefficient model families. |
+| Specification and inference | package tests and vignettes | Entropy, significance, and related inferential procedures. |
+
+`npRmpi` is the parallel sibling for larger jobs and MPI-aware workflows. It should be viewed as a companion implementation for computationally intensive tasks, not as a separate methodology.
+
+## `crs`
+
+The `crs` package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current local source version is `crs` 0.15-43.
+
+::: {.resource-card}
+### Package Pointers
+
+- [`crs` on CRAN](https://cran.r-project.org/web/packages/crs/index.html)
+- [`crs` changelog on CRAN](https://cran.r-project.org/web/packages/crs/ChangeLog)
+- [`crs` FAQ](https://cran.r-project.org/web/packages/crs/vignettes/crs_faq.pdf)
+- [`crs` user manual](https://cran.r-project.org/web/packages/crs/vignettes/crs.pdf)
+- [`crs` spline primer](https://cran.r-project.org/web/packages/crs/vignettes/spline_primer.pdf)
+- [`crs` source repository](https://github.com/JeffreyRacine/R-Package-crs/)
+:::
+
+The package article is Nie and Racine [-@Nie2012TheCP], published in *The R Journal* [PDF](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Nie+S~Racine.pdf).
+
+### Method Families
+
+| Family | Typical Use | Notes |
+|---|---|---|
+| Categorical regression splines | Mixed continuous/categorical predictors | Core `crs` workflow. |
+| Quantile regression splines | Conditional quantile surfaces | Available through quantile-oriented spline routes. |
+| Model selection and smoothing | Data-driven spline specification | Complements the kernel-smoothing philosophy in `np`. |
+
+## Legacy Package Materials
+
+### `ma`
+
+The `ma` package implements model averaging using a variety of multivariate bases and averaging criteria.
+
+- [User manual](www/ma-manual.pdf)
+- [Vignette](www/ma-vignette.pdf)
+- [GitHub repository](https://github.com/JeffreyRacine/R-Package-ma/)
+
+### `hr`
+
+The `hr` package implements the Hansen-Racine bootstrap model-average unit-root test.
+
+- [User manual](www/hr-manual.pdf)
+- [GitHub repository](https://github.com/JeffreyRacine/R-Package-hr/)
+
+## Stata Implementations
+
+As of Stata 15, Stata users have access to mixed-datatype kernel regression methods through `npregress`. It is the Stata counterpart to `npreg` in the R package `np`, with different defaults and options.
+
+- [Stata `npregress` manual](https://www.stata.com/manuals15/rnpregress.pdf)

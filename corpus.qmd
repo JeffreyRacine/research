@@ -1,0 +1,54 @@
+---
+title: "Research Corpus Map"
+bibliography: references.bib
+---
+
+## How The Corpus Fits Together
+
+This site collects a research and software corpus rather than a single book companion page. The most useful way to navigate it is by topic.
+
+| Topic | Primary Sources | Software Entry Points |
+|---|---|---|
+| Mixed-data kernel smoothing | Princeton theory, Cambridge advanced treatment | `np`, `npRmpi` |
+| Kernel density, distribution, and quantiles | Princeton, Cambridge | `npudens`, `npudist`, `npcdens`, `npcdist`, `npqreg` |
+| Conditional mean and regression | Princeton, Cambridge | `npreg`, `npregbw`, `predict`, `plot` |
+| Semiparametric models | Cambridge, Princeton | `npplreg`, `npindex`, `npscoef` |
+| Endogeneity and IV-style nonparametric regression | Cambridge, Princeton | `npregiv` routes where applicable |
+| Regression splines and categorical predictors | Oxford spline primer, `crs` article | `crs`, `crs-package` documentation |
+| Reproducible computation in R | Oxford, Cambridge setup chapters | R, RStudio, TeX, Git, Quarto/bookdown workflows |
+| Robust inference, resampling, model uncertainty | Oxford | `boot`, model averaging materials, legacy `ma` |
+| Large-data and parallel execution | Package vignettes, `npRmpi` examples | `npRmpi`, MPI profile/attach/session workflows |
+
+## Reading Paths
+
+For audience-specific routes through the corpus, see [Reader Pathways](pathways.qmd).
+
+### For Nonparametric Econometrics
+
+Start with Li and Racine [-@li_racine_2007] for the broad theoretical foundation, then use Racine [-@racine_cambridge_2019] for a replicable R-centered treatment of advanced topics. The `np` package article [-@np] and package vignettes connect these methods to day-to-day R workflows.
+
+### For Reproducible Econometrics
+
+Start with Racine [-@racine_oxford_2019] for reproducible R workflows, robust inference, time series, model uncertainty, and related computational tools. Use the [Downloads and Teaching](resources.qmd) page for public errata and companion code.
+
+### For Package Users
+
+Use the [R Packages](software.qmd) page for current package links, package versions, CRAN/manual/vignette pointers, and GitHub source repositories. Use the [Gallery of Code](https://jeffreyracine.github.io/gallery/) for worked examples and current package-oriented snippets.
+
+## Public Versus Instructor Materials
+
+The public site should surface durable public materials: publisher links, errata, companion code, public manuals, vignettes, package articles, and selected solution material that is already intended for public use.
+
+Instructor-only material, including full solutions manuals, exams, assignments, and private slide decks for adopting instructors, should be described here but not published directly unless explicitly intended for public distribution.
+
+## Site Maintenance Guidance
+
+For future updates, this Research site should stay organized around durable reader questions:
+
+- Which book or package should I start with?
+- Where are the public companion files?
+- Which software implements a given method family?
+- Which materials are public, and which require an instructor request?
+- How does this site relate to the package Gallery?
+
+The Gallery can stay code-first; this site should stay corpus-first.

@@ -1,0 +1,106 @@
+---
+title: "Books and Monographs"
+bibliography: references.bib
+---
+
+## Books
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.book-card}
+### Advanced Nonparametric Econometrics
+
+Racine, J.S. [-@racine_cambridge_2019], *An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using R*, Cambridge University Press.
+
+[Cambridge University Press](https://www.cambridge.org/br/academic/subjects/economics/econometrics-statistics-and-mathematical-economics/introduction-advanced-theory-and-practice-nonparametric-econometrics-replicable-approach-using-r?format=HB)
+:::
+:::
+
+::: {.column width="50%"}
+::: {.book-card}
+### Reproducible Econometrics Using R
+
+Racine, J.S. [-@racine_oxford_2019], *Reproducible Econometrics Using R*, Oxford University Press.
+
+[Oxford University Press](https://global.oup.com/academic/product/reproducible-econometrics-using-r-9780190900663) · [Errata](www/errata_Oxford.pdf)
+:::
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.book-card}
+### Nonparametric Econometrics
+
+Li, Q. and J.S. Racine [-@li_racine_2007], *Nonparametric Econometrics: Theory and Practice*, Princeton University Press.
+
+[Princeton University Press](https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics) · [Table of contents](www/pup_toc.pdf) · [Errata](www/pup_errata.pdf)
+:::
+:::
+
+::: {.column width="50%"}
+::: {.book-card}
+### Chinese Translation
+
+Li, Q. and J.S. Racine, *Nonparametric Econometrics: Theory and Practice*, translated edition, Peking University Press, 2015.
+
+ISBN: 9787301249673.
+:::
+:::
+::::
+
+Instructor materials for adopted courses, including slides, assignments, exams, and solution manuals, are available upon request where noted by the publisher companion material.
+
+## Topic Guides
+
+### Cambridge: Advanced Nonparametric Econometrics
+
+The Cambridge book is the most direct companion for modern `np` / `npRmpi` work. Its manuscript source covers:
+
+- R, RStudio, TeX, Git, and reproducible book workflows;
+- discrete probability, continuous density and distribution functions, and mixed-data density/distribution methods;
+- conditional moment functions, conditional mean regression, conditional variance, conditional density and distribution functions;
+- semiparametric conditional mean models and conditional mean models with endogenous predictors;
+- computational considerations and practicum material.
+
+Public-facing companion files are listed on [Downloads and Teaching](resources.qmd). Instructor-only teaching materials remain available by request.
+
+### Oxford: Reproducible Econometrics Using R
+
+The Oxford book is the broad reproducible-computation companion. Its source structure covers:
+
+- R, RStudio, TeX, and Git workflows;
+- maximum likelihood estimation and inference;
+- robust parametric estimation and robust inference, including bootstrap and jackknife material;
+- model uncertainty and model averaging;
+- linear time series methods, including ARIMA, random walks, unit roots, and spurious relationships;
+- regression splines and quadratic programming.
+
+This book is the natural bridge between econometric practice and the reproducible workflow conventions reflected in the package ecosystem.
+
+### Princeton: Nonparametric Econometrics
+
+The Princeton book remains the theory-and-practice foundation for many estimators implemented in `np` and `npRmpi`. The local book corpus includes source and companion material for kernel density, conditional density, CDF/quantile material, censored models, endogenous dependent variables, panel material, mixed smoothing, testing, and applied examples.
+
+Public companion files currently surfaced here include the table of contents, errata, Chapter 1, odd-question solutions, and applied-question code.
+
+## Monograph
+
+Racine, J.S. (2008), [*Nonparametric Econometrics: A Primer*](www/ECO0301.pdf), *Foundations and Trends in Econometrics*, 3(1), 1-88. [DOI link](https://dx.doi.org/10.1561/0800000009).
+
+The R code used to replicate examples in the primer is available as a [zip archive](www/primer_code.zip).
+
+An edited Russian translation appeared as Racine, J.S. (2008), "[Nonparametric Econometrics: A Primer](https://quantile.ru/04/04-JR.pdf)", *Quantile*, Number 4, 7-56.
+
+## Edited Volumes
+
+- *Oxford Handbook of Semiparametric and Nonparametric Econometric Methods*, edited by Jeffrey S. Racine, Liangjun Su, and Aman Ullah, Oxford University Press, 2014.
+- *Advances In Econometrics: Nonparametric Econometric Methods*, Volume 25, edited by Qi Li and Jeffrey S. Racine, Emerald, 2009.
+
+## Princeton Companion Files
+
+- [Chapter 1](https://press.princeton.edu/chapters/s8355.pdf)
+- [Solutions to odd-numbered questions](www/Solutions_Odd.pdf)
+- [R code for applied questions](www/Solutions_code.zip)
+
+A solution manual containing code and answers to all questions is available to instructors upon request. Please email a course syllabus and surface mailing address.

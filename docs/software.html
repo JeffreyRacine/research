@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Jeffrey S. Racine Research</title>
+<title>R Packages – Jeffrey S. Racine Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,7 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./resources.html" rel="prev">
+<link href="./teaching.html" rel="next">
+<link href="./pathways.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -114,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./software.html">R Packages</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -169,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./software.html" class="sidebar-item-text sidebar-link">
+  <a href="./software.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">R Packages</span></a>
   </div>
 </li>
@@ -187,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
@@ -198,15 +218,36 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#np-and-nprmpi" id="toc-np-and-nprmpi" class="nav-link active" data-scroll-target="#np-and-nprmpi"><code>np</code> and <code>npRmpi</code></a>
+  <ul class="collapse">
+  <li><a href="#package-pointers" id="toc-package-pointers" class="nav-link" data-scroll-target="#package-pointers">Package Pointers</a></li>
+  <li><a href="#method-families" id="toc-method-families" class="nav-link" data-scroll-target="#method-families">Method Families</a></li>
+  </ul></li>
+  <li><a href="#crs" id="toc-crs" class="nav-link" data-scroll-target="#crs"><code>crs</code></a>
+  <ul class="collapse">
+  <li><a href="#package-pointers-1" id="toc-package-pointers-1" class="nav-link" data-scroll-target="#package-pointers-1">Package Pointers</a></li>
+  <li><a href="#method-families-1" id="toc-method-families-1" class="nav-link" data-scroll-target="#method-families-1">Method Families</a></li>
+  </ul></li>
+  <li><a href="#legacy-package-materials" id="toc-legacy-package-materials" class="nav-link" data-scroll-target="#legacy-package-materials">Legacy Package Materials</a>
+  <ul class="collapse">
+  <li><a href="#ma" id="toc-ma" class="nav-link" data-scroll-target="#ma"><code>ma</code></a></li>
+  <li><a href="#hr" id="toc-hr" class="nav-link" data-scroll-target="#hr"><code>hr</code></a></li>
+  </ul></li>
+  <li><a href="#stata-implementations" id="toc-stata-implementations" class="nav-link" data-scroll-target="#stata-implementations">Stata Implementations</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./software.html">R Packages</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">R Packages</h1>
 </div>
 
 
@@ -223,14 +264,163 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This site is hosted on GitHub Pages and is linked to from my main academic and professional profile.</p>
-<p>For current institutional information, see my <a href="https://experts.mcmaster.ca/display/racinej">McMaster profile</a>. For package-oriented examples and current code snippets, see the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a>.</p>
-<p>You can contact me at <a href="mailto:racinej@mcmaster.ca">racinej@mcmaster.ca</a>.</p>
-<p>This Research site is intended as the corpus-level companion to my books and software. It points readers to public book resources, software documentation, package repositories, and teaching-material request instructions.</p>
+<section id="np-and-nprmpi" class="level2">
+<h2 class="anchored" data-anchor-id="np-and-nprmpi"><code>np</code> and <code>npRmpi</code></h2>
+<p>The <code>np</code> package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.</p>
+<p>The current local source version is <code>np</code> 0.70-2. The MPI-aware sibling <code>npRmpi</code> is also at 0.70-2 locally and is designed for batch programs on clusters and multi-core environments where computationally intensive jobs benefit from explicit message passing.</p>
+<section id="package-pointers" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="package-pointers">Package Pointers</h3>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/np/index.html"><code>np</code> on CRAN</a></li>
+<li><a href="https://cran.r-project.org/web/packages/np/ChangeLog"><code>np</code> changelog on CRAN</a></li>
+<li><a href="https://cran.r-project.org/web/packages/np/vignettes/np_faq.pdf"><code>np</code> FAQ</a></li>
+<li><a href="https://cran.r-project.org/web/packages/np/vignettes/np.pdf"><code>np</code> user manual</a></li>
+<li><a href="https://github.com/JeffreyRacine/R-Package-np/"><code>np</code> and <code>npRmpi</code> source repository</a></li>
+<li><a href="https://jeffreyracine.github.io/gallery/">Gallery examples for <code>np</code>, <code>npRmpi</code>, and <code>crs</code></a></li>
+</ul>
+</section>
+<p>The original package article is Hayfield and Racine <span class="citation" data-cites="np">(<a href="#ref-np" role="doc-biblioref">2008</a>)</span>. See also the October 2007 <em>R News</em> article <a href="https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf">PDF</a>, the entropy vignette <a href="https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf">PDF</a>, and the accompanying <a href="www/entropy_np.R">R code</a>.</p>
+<p>Reviews appeared in the <em>Journal of Applied Econometrics</em> for <a href="https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract"><code>np</code></a> and <a href="https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract"><code>npRmpi</code></a>.</p>
+<section id="method-families" class="level3">
+<h3 class="anchored" data-anchor-id="method-families">Method Families</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Family</th>
+<th>Typical Functions</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kernel regression</td>
+<td><code>npreg</code>, <code>npregbw</code></td>
+<td>Conditional mean estimation and prediction for mixed data.</td>
+</tr>
+<tr class="even">
+<td>Unconditional density/distribution</td>
+<td><code>npudens</code>, <code>npudensbw</code>, <code>npudist</code>, <code>npudistbw</code></td>
+<td>Density and distribution estimation with continuous and discrete variables.</td>
+</tr>
+<tr class="odd">
+<td>Conditional density/distribution</td>
+<td><code>npcdens</code>, <code>npcdensbw</code>, <code>npcdist</code>, <code>npcdistbw</code></td>
+<td>Conditional PDF/CDF workflows, including quantile-related use cases.</td>
+</tr>
+<tr class="even">
+<td>Quantile regression</td>
+<td><code>npqreg</code></td>
+<td>Nonparametric conditional quantiles derived from conditional distribution machinery.</td>
+</tr>
+<tr class="odd">
+<td>Semiparametric models</td>
+<td><code>npplreg</code>, <code>npindex</code>, <code>npscoef</code></td>
+<td>Partially linear, single-index, and smooth-coefficient model families.</td>
+</tr>
+<tr class="even">
+<td>Specification and inference</td>
+<td>package tests and vignettes</td>
+<td>Entropy, significance, and related inferential procedures.</td>
+</tr>
+</tbody>
+</table>
+<p><code>npRmpi</code> is the parallel sibling for larger jobs and MPI-aware workflows. It should be viewed as a companion implementation for computationally intensive tasks, not as a separate methodology.</p>
+</section>
+</section>
+<section id="crs" class="level2">
+<h2 class="anchored" data-anchor-id="crs"><code>crs</code></h2>
+<p>The <code>crs</code> package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current local source version is <code>crs</code> 0.15-43.</p>
+<section id="package-pointers-1" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="package-pointers-1">Package Pointers</h3>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/crs/index.html"><code>crs</code> on CRAN</a></li>
+<li><a href="https://cran.r-project.org/web/packages/crs/ChangeLog"><code>crs</code> changelog on CRAN</a></li>
+<li><a href="https://cran.r-project.org/web/packages/crs/vignettes/crs_faq.pdf"><code>crs</code> FAQ</a></li>
+<li><a href="https://cran.r-project.org/web/packages/crs/vignettes/crs.pdf"><code>crs</code> user manual</a></li>
+<li><a href="https://cran.r-project.org/web/packages/crs/vignettes/spline_primer.pdf"><code>crs</code> spline primer</a></li>
+<li><a href="https://github.com/JeffreyRacine/R-Package-crs/"><code>crs</code> source repository</a></li>
+</ul>
+</section>
+<p>The package article is Nie and Racine <span class="citation" data-cites="Nie2012TheCP">(<a href="#ref-Nie2012TheCP" role="doc-biblioref">2012</a>)</span>, published in <em>The R Journal</em> <a href="https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Nie+S~Racine.pdf">PDF</a>.</p>
+<section id="method-families-1" class="level3">
+<h3 class="anchored" data-anchor-id="method-families-1">Method Families</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Family</th>
+<th>Typical Use</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Categorical regression splines</td>
+<td>Mixed continuous/categorical predictors</td>
+<td>Core <code>crs</code> workflow.</td>
+</tr>
+<tr class="even">
+<td>Quantile regression splines</td>
+<td>Conditional quantile surfaces</td>
+<td>Available through quantile-oriented spline routes.</td>
+</tr>
+<tr class="odd">
+<td>Model selection and smoothing</td>
+<td>Data-driven spline specification</td>
+<td>Complements the kernel-smoothing philosophy in <code>np</code>.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="legacy-package-materials" class="level2">
+<h2 class="anchored" data-anchor-id="legacy-package-materials">Legacy Package Materials</h2>
+<section id="ma" class="level3">
+<h3 class="anchored" data-anchor-id="ma"><code>ma</code></h3>
+<p>The <code>ma</code> package implements model averaging using a variety of multivariate bases and averaging criteria.</p>
+<ul>
+<li><a href="www/ma-manual.pdf">User manual</a></li>
+<li><a href="www/ma-vignette.pdf">Vignette</a></li>
+<li><a href="https://github.com/JeffreyRacine/R-Package-ma/">GitHub repository</a></li>
+</ul>
+</section>
+<section id="hr" class="level3">
+<h3 class="anchored" data-anchor-id="hr"><code>hr</code></h3>
+<p>The <code>hr</code> package implements the Hansen-Racine bootstrap model-average unit-root test.</p>
+<ul>
+<li><a href="www/hr-manual.pdf">User manual</a></li>
+<li><a href="https://github.com/JeffreyRacine/R-Package-hr/">GitHub repository</a></li>
+</ul>
+</section>
+</section>
+<section id="stata-implementations" class="level2">
+<h2 class="anchored" data-anchor-id="stata-implementations">Stata Implementations</h2>
+<p>As of Stata 15, Stata users have access to mixed-datatype kernel regression methods through <code>npregress</code>. It is the Stata counterpart to <code>npreg</code> in the R package <code>np</code>, with different defaults and options.</p>
+<ul>
+<li><a href="https://www.stata.com/manuals15/rnpregress.pdf">Stata <code>npregress</code> manual</a></li>
+</ul>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-np" class="csl-entry" role="listitem">
+Hayfield, Tristen, and Jeffrey S. Racine. 2008. <span>“Nonparametric Econometrics: The <span class="nocase">np</span> Package.”</span> <em>Journal of Statistical Software</em> 27 (5): 1–32. <a href="https://doi.org/10.18637/jss.v027.i05">https://doi.org/10.18637/jss.v027.i05</a>.
+</div>
+<div id="ref-Nie2012TheCP" class="csl-entry" role="listitem">
+Nie, Zhenghua, and Jeffrey S. Racine. 2012. <span>“The <span class="nocase">crs</span> Package: Nonparametric Regression Splines for Continuous and Categorical Predictors.”</span> <em>R J.</em> 4: 48. <a href="https://api.semanticscholar.org/CorpusID:10908672">https://api.semanticscholar.org/CorpusID:10908672</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -638,11 +828,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./resources.html" class="pagination-link" aria-label="Downloads and Teaching">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Downloads and Teaching</span>
+      <a href="./pathways.html" class="pagination-link" aria-label="Reader Pathways">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reader Pathways</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./teaching.html" class="pagination-link" aria-label="Teaching Materials">
+        <span class="nav-page-text">Teaching Materials</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -653,7 +846,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

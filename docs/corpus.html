@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Jeffrey S. Racine Research</title>
+<title>Research Corpus Map – Jeffrey S. Racine Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,7 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./resources.html" rel="prev">
+<link href="./pathways.html" rel="next">
+<link href="./books.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -114,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./corpus.html">Research Corpus Map</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -157,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./corpus.html" class="sidebar-item-text sidebar-link">
+  <a href="./corpus.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Research Corpus Map</span></a>
   </div>
 </li>
@@ -187,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
@@ -198,15 +218,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-the-corpus-fits-together" id="toc-how-the-corpus-fits-together" class="nav-link active" data-scroll-target="#how-the-corpus-fits-together">How The Corpus Fits Together</a></li>
+  <li><a href="#reading-paths" id="toc-reading-paths" class="nav-link" data-scroll-target="#reading-paths">Reading Paths</a>
+  <ul class="collapse">
+  <li><a href="#for-nonparametric-econometrics" id="toc-for-nonparametric-econometrics" class="nav-link" data-scroll-target="#for-nonparametric-econometrics">For Nonparametric Econometrics</a></li>
+  <li><a href="#for-reproducible-econometrics" id="toc-for-reproducible-econometrics" class="nav-link" data-scroll-target="#for-reproducible-econometrics">For Reproducible Econometrics</a></li>
+  <li><a href="#for-package-users" id="toc-for-package-users" class="nav-link" data-scroll-target="#for-package-users">For Package Users</a></li>
+  </ul></li>
+  <li><a href="#public-versus-instructor-materials" id="toc-public-versus-instructor-materials" class="nav-link" data-scroll-target="#public-versus-instructor-materials">Public Versus Instructor Materials</a></li>
+  <li><a href="#site-maintenance-guidance" id="toc-site-maintenance-guidance" class="nav-link" data-scroll-target="#site-maintenance-guidance">Site Maintenance Guidance</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/corpus.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Research</a></li><li class="breadcrumb-item"><a href="./corpus.html">Research Corpus Map</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Research Corpus Map</h1>
 </div>
 
 
@@ -223,14 +257,122 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This site is hosted on GitHub Pages and is linked to from my main academic and professional profile.</p>
-<p>For current institutional information, see my <a href="https://experts.mcmaster.ca/display/racinej">McMaster profile</a>. For package-oriented examples and current code snippets, see the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a>.</p>
-<p>You can contact me at <a href="mailto:racinej@mcmaster.ca">racinej@mcmaster.ca</a>.</p>
-<p>This Research site is intended as the corpus-level companion to my books and software. It points readers to public book resources, software documentation, package repositories, and teaching-material request instructions.</p>
+<section id="how-the-corpus-fits-together" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-corpus-fits-together">How The Corpus Fits Together</h2>
+<p>This site collects a research and software corpus rather than a single book companion page. The most useful way to navigate it is by topic.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Primary Sources</th>
+<th>Software Entry Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mixed-data kernel smoothing</td>
+<td>Princeton theory, Cambridge advanced treatment</td>
+<td><code>np</code>, <code>npRmpi</code></td>
+</tr>
+<tr class="even">
+<td>Kernel density, distribution, and quantiles</td>
+<td>Princeton, Cambridge</td>
+<td><code>npudens</code>, <code>npudist</code>, <code>npcdens</code>, <code>npcdist</code>, <code>npqreg</code></td>
+</tr>
+<tr class="odd">
+<td>Conditional mean and regression</td>
+<td>Princeton, Cambridge</td>
+<td><code>npreg</code>, <code>npregbw</code>, <code>predict</code>, <code>plot</code></td>
+</tr>
+<tr class="even">
+<td>Semiparametric models</td>
+<td>Cambridge, Princeton</td>
+<td><code>npplreg</code>, <code>npindex</code>, <code>npscoef</code></td>
+</tr>
+<tr class="odd">
+<td>Endogeneity and IV-style nonparametric regression</td>
+<td>Cambridge, Princeton</td>
+<td><code>npregiv</code> routes where applicable</td>
+</tr>
+<tr class="even">
+<td>Regression splines and categorical predictors</td>
+<td>Oxford spline primer, <code>crs</code> article</td>
+<td><code>crs</code>, <code>crs-package</code> documentation</td>
+</tr>
+<tr class="odd">
+<td>Reproducible computation in R</td>
+<td>Oxford, Cambridge setup chapters</td>
+<td>R, RStudio, TeX, Git, Quarto/bookdown workflows</td>
+</tr>
+<tr class="even">
+<td>Robust inference, resampling, model uncertainty</td>
+<td>Oxford</td>
+<td><code>boot</code>, model averaging materials, legacy <code>ma</code></td>
+</tr>
+<tr class="odd">
+<td>Large-data and parallel execution</td>
+<td>Package vignettes, <code>npRmpi</code> examples</td>
+<td><code>npRmpi</code>, MPI profile/attach/session workflows</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="reading-paths" class="level2">
+<h2 class="anchored" data-anchor-id="reading-paths">Reading Paths</h2>
+<p>For audience-specific routes through the corpus, see <a href="./pathways.html">Reader Pathways</a>.</p>
+<section id="for-nonparametric-econometrics" class="level3">
+<h3 class="anchored" data-anchor-id="for-nonparametric-econometrics">For Nonparametric Econometrics</h3>
+<p>Start with Li and Racine <span class="citation" data-cites="li_racine_2007">(<a href="#ref-li_racine_2007" role="doc-biblioref">2007</a>)</span> for the broad theoretical foundation, then use Racine <span class="citation" data-cites="racine_cambridge_2019">(<a href="#ref-racine_cambridge_2019" role="doc-biblioref">2019a</a>)</span> for a replicable R-centered treatment of advanced topics. The <code>np</code> package article <span class="citation" data-cites="np">(<a href="#ref-np" role="doc-biblioref">2008</a>)</span> and package vignettes connect these methods to day-to-day R workflows.</p>
+</section>
+<section id="for-reproducible-econometrics" class="level3">
+<h3 class="anchored" data-anchor-id="for-reproducible-econometrics">For Reproducible Econometrics</h3>
+<p>Start with Racine <span class="citation" data-cites="racine_oxford_2019">(<a href="#ref-racine_oxford_2019" role="doc-biblioref">2019b</a>)</span> for reproducible R workflows, robust inference, time series, model uncertainty, and related computational tools. Use the <a href="./resources.html">Downloads and Teaching</a> page for public errata and companion code.</p>
+</section>
+<section id="for-package-users" class="level3">
+<h3 class="anchored" data-anchor-id="for-package-users">For Package Users</h3>
+<p>Use the <a href="./software.html">R Packages</a> page for current package links, package versions, CRAN/manual/vignette pointers, and GitHub source repositories. Use the <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a> for worked examples and current package-oriented snippets.</p>
+</section>
+</section>
+<section id="public-versus-instructor-materials" class="level2">
+<h2 class="anchored" data-anchor-id="public-versus-instructor-materials">Public Versus Instructor Materials</h2>
+<p>The public site should surface durable public materials: publisher links, errata, companion code, public manuals, vignettes, package articles, and selected solution material that is already intended for public use.</p>
+<p>Instructor-only material, including full solutions manuals, exams, assignments, and private slide decks for adopting instructors, should be described here but not published directly unless explicitly intended for public distribution.</p>
+</section>
+<section id="site-maintenance-guidance" class="level2">
+<h2 class="anchored" data-anchor-id="site-maintenance-guidance">Site Maintenance Guidance</h2>
+<p>For future updates, this Research site should stay organized around durable reader questions:</p>
+<ul>
+<li>Which book or package should I start with?</li>
+<li>Where are the public companion files?</li>
+<li>Which software implements a given method family?</li>
+<li>Which materials are public, and which require an instructor request?</li>
+<li>How does this site relate to the package Gallery?</li>
+</ul>
+<p>The Gallery can stay code-first; this site should stay corpus-first.</p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-np" class="csl-entry" role="listitem">
+Hayfield, Tristen, and Jeffrey S. Racine. 2008. <span>“Nonparametric Econometrics: The <span class="nocase">np</span> Package.”</span> <em>Journal of Statistical Software</em> 27 (5): 1–32. <a href="https://doi.org/10.18637/jss.v027.i05">https://doi.org/10.18637/jss.v027.i05</a>.
+</div>
+<div id="ref-li_racine_2007" class="csl-entry" role="listitem">
+Li, Q., and J. Racine. 2007. <em>Nonparametric Econometrics: Theory and Practice</em>. Princeton University Press. <a href="https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics">https://press.princeton.edu/books/hardcover/9780691121611/nonparametric-econometrics</a>.
+</div>
+<div id="ref-racine_cambridge_2019" class="csl-entry" role="listitem">
+Racine, Jeffrey S. 2019a. <em>An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using <span>R</span></em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781108649841">https://doi.org/10.1017/9781108649841</a>.
+</div>
+<div id="ref-racine_oxford_2019" class="csl-entry" role="listitem">
+Racine, Jeffrey S. 2019b. <em>Reproducible Econometrics Using <span>R</span></em>. Oxford University Press.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -638,11 +780,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./resources.html" class="pagination-link" aria-label="Downloads and Teaching">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Downloads and Teaching</span>
+      <a href="./books.html" class="pagination-link" aria-label="Books and Monographs">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Books and Monographs</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./pathways.html" class="pagination-link" aria-label="Reader Pathways">
+        <span class="nav-page-text">Reader Pathways</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -653,7 +798,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/JeffreyRacine/research/blob/main/corpus.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

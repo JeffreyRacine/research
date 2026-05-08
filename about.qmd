@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-This site is hosted on GitHub Pages and is linked to from my main academic/professional page. You can contact me at <a href="mailto:racinej@mcmaster.ca">racinej\@mcmaster.ca</a>. My professional website can be found at <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a>
+This site is hosted on GitHub Pages and is linked to from my main academic and professional profile.
+
+For current institutional information, see my [McMaster profile](https://experts.mcmaster.ca/display/racinej). For package-oriented examples and current code snippets, see the [Gallery of Code](https://jeffreyracine.github.io/gallery/).
+
+You can contact me at [racinej@mcmaster.ca](mailto:racinej@mcmaster.ca).
+
+This Research site is intended as the corpus-level companion to my books and software. It points readers to public book resources, software documentation, package repositories, and teaching-material request instructions.

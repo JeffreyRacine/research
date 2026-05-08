@@ -1,103 +1,122 @@
 ---
-title: "Pointers, Tips, Code, and More"
+title: "Jeffrey S. Racine Research"
 bibliography: references.bib
 ---
 
-*(Kindly note that this auxiliary website is accessible from my University website* <a href="https://experts.mcmaster.ca/display/racinej">experts.mcmaster.ca/display/racinej</a> and is not intended as a substitute)
+::: {.research-hero}
+Pointers, companion materials, and software links for nonparametric econometrics, reproducible econometrics, semiparametric methods, and the R packages that support this work.
+:::
 
-# Overview
+::: {.quick-note}
+This auxiliary site complements my [McMaster profile](https://experts.mcmaster.ca/display/racinej). For working examples and current package-oriented code, see the [Gallery of Code](https://jeffreyracine.github.io/gallery/).
+:::
 
-The information below contains pointers, links, code, and other information that some may find useful. It is restricted mostly to books I have written (@racine_cambridge_2019, @racine_oxford_2019, @li_racine_2007) or co-authored and software I have written or co-authored in R (@np, @crs, @Nie2012TheCP, etc.).
+## At A Glance
 
-## Books
+:::: {.columns}
+::: {.column width="50%"}
+::: {.home-card}
+### Books
 
-1.  Racine, J.S. (2019), *An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics (A Replicable Approach Using R)*, Cambridge University Press, ISBN 9781108483407, 408 pages.
+Companion pointers for the Cambridge, Oxford, and Princeton books, including errata, public code archives, tables of contents, and instructor-material notes.
 
-    Note that lecture slides, assignments, exams, and a solutions manual are available upon request to instructors who adopt this book (slides in $\rm\LaTeX$ Beamer format). See the website link below for further details (see the *Companion Website* in the link below).
+[Books and monographs](books.qmd)
+:::
+:::
 
-    You can order the book directly from Cambridge University Press (Link: [An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics](https://www.cambridge.org/br/academic/subjects/economics/econometrics-statistics-and-mathematical-economics/introduction-advanced-theory-and-practice-nonparametric-econometrics-replicable-approach-using-r?format=HB)) or from your favourite online retailer when available.
+::: {.column width="50%"}
+::: {.home-card}
+### Corpus Map
 
-2.  Racine, J.S. (2019), *Reproducible Econometrics Using R*, Oxford University Press, ISBN: 9780190900663, 293 pages.
+A guide to how the books, articles, examples, and R packages fit together across kernel methods, splines, mixed data, and reproducible computation.
 
-    Here is the Errata ([pdf](www/errata_Oxford.pdf)). Note that lecture slides, assignments, exams, and a solutions manual are available upon request to instructors who adopt this book (slides in $\rm\LaTeX$ Beamer format). See the website link below for further details (see the *Companion Website* in the link below).
+[Research corpus map](corpus.qmd)
+:::
+:::
+::::
 
-    You can order the book directly from Oxford University Press (Link: [Reproducible Econometrics Using R](https://global.oup.com/academic/product/reproducible-econometrics-using-r-9780190900663?q=reproducible%20econometrics%20using%20R&lang=en&cc=ca)) or from your favourite online retailer.
+:::: {.columns}
+::: {.column width="33%"}
+::: {.home-card}
+### Reader Pathways
 
-3.  Li, Q. and J.S. Racine (2007), *Nonparametric Econometrics: Theory and Practice*, Princeton University Press, ISBN: 9780691121611, 746 Pages.
+Short routes through the corpus for students, instructors, applied researchers, package users, and method developers.
 
-    You can order the book directly from Princeton University Press (Link: [Nonparametric Econometrics: Theory and Practice](https://press.princeton.edu/titles/8355.html)) or from your favourite online retailer.
+[Reader pathways](pathways.qmd)
+:::
+:::
 
-    Here is the table of contents ([pdf](www/pup_toc.pdf)), Chapter 1 ([pdf](https://press.princeton.edu/chapters/s8355.pdf)), the Errata ([pdf](www/pup_errata.pdf)), the solution manual containing code and answers to odd numbered questions ([pdf](www/Solutions_Odd.pdf)), and R code for answers to all applied questions ([zip](www/Solutions_code.zip)). A solution manual containing code and answers to all questions (odd and even) is available to instructors upon request. To receive a copy kindly email me your course syllabus along with your surface mailing address. A hard copy will then be sent via surface mail.
+::: {.column width="33%"}
+::: {.home-card}
+### Software
 
-    **Chinese Translation**:
+Current links for `np`, `npRmpi`, `crs`, and legacy package materials, with CRAN, GitHub, manuals, vignettes, and review articles.
 
-    Li, Q. and J.S. Racine, *Nonparametric Econometrics: Theory and Practice*, Translated by Ye Zhong, Wu Xianbgo et al., Peking University Press (2015), ISBN: 9787301249673.
+[R packages](software.qmd)
+:::
+:::
 
-## Monographs
+::: {.column width="33%"}
+::: {.home-card}
+### Teaching
 
-1.  Racine, J.S. (2008), [*Nonparametric Econometrics: A Primer*](www/ECO0301.pdf)*,* Foundations and Trends in Econometrics: Vol. 3: No 1, pp 1-88. (Link: <https://dx.doi.org/10.1561/0800000009>).
+Public downloads and a clear note on instructor-only materials for adopted courses, without mixing private course files into the public site.
 
-    Here is the R code to replicate examples in this primer ([zip](www/primer_code.zip)).
+[Teaching materials](teaching.qmd)
+:::
+:::
+::::
 
-    **Russian Translation**:
+:::: {.columns}
+::: {.column width="50%"}
+::: {.home-card}
+### Downloads
 
-    An edited version of this monograph is reprinted in Russian and appears as Racine, J.S. (2008) "[Nonparametric Econometrics: A Primer](https://quantile.ru/04/04-JR.pdf)", *Quantile*, Number 4, pp 7-56.
+Local PDFs, code archives, errata, manuals, and teaching-adjacent resources gathered from the older research page.
 
-## Edited Volumes
+[Downloads and teaching](resources.qmd)
+:::
+:::
 
-1.  *Oxford Handbook of Semiparametric and Nonparametric Econometric Methods,* ISBN 978--0--19--985794--4, Edited By Jeffrey S. Racine, Liangjun Su, and Aman Ullah, Published: 2014.
+::: {.column width="50%"}
+::: {.home-card}
+### Gallery
 
-2.  *Advances In Econometrics: Nonparametric Econometric Methods,* Volume 25, ISBN: 978-1-84950-623-6, Edited by: Qi Li, Jeffrey S. Racine, Published: 2009.
+The Gallery is the code-first companion for worked examples, package-oriented snippets, and current usage notes.
 
-## The R np Package
+[Gallery of Code](https://jeffreyracine.github.io/gallery/)
+:::
+:::
+::::
 
-Consult the np FAQ ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np_faq.pdf)) for responses to commonly asked questions and the user manual ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)) for functions, descriptions, and examples.
+## Research Thread
 
-The R ([www.r-project.org](https://www.r-project.org/)) np package (current version 0.60-18) implements a variety of nonparametric and semiparametric kernel-based methods in R, an open source platform for statistical computing and graphics. Methods include kernel regression, kernel density estimation, kernel conditional density estimation, and a range of inferential procedures. See the links to the vignettes below for an overview of both packages (I would advise starting with the np vignette).
+Much of the material collected here is tied to three overlapping themes:
 
-The np package is the standard package you would use under R, while the npRmpi package is an older version that uses the message passing interface for parallel computing. The npRmpi package is designed for executing batch programs on compute clusters and multi-core computing environments to reduce the run time for computationally intensive jobs. See the example files in the demo directory of the npRmpi package on GitHub for illustrative npRmpi code, and see the examples in the help files and the link for replicating examples for the primer above for code to generate a range of illustrative examples. 
+- nonparametric and semiparametric econometric methods for mixed continuous and categorical data;
+- reproducible computational econometrics in R, from core R workflows to robust inference and time series;
+- software implementation, documentation, and applied workflows around `np`, `npRmpi`, and `crs`.
 
-Here is a direct [link](https://cran.r-project.org/web/packages/np/index.html) to the np package on the Comprehensive R Archive Network (CRAN) and a direct [link](https://cran.r-project.org/web/packages/np/ChangeLog) to the CHANGELOG file on CRAN (documents differences between all versions). Note CRAN is no longer hosting npRmpi and the package is now available on GitHub but is not updated as frequently as the np package.
-See the npRmpi GitHub repository (link below) for an npRmpi MS Windows binary (available as a binary zip file from the GitHub Downloads menu) and a recent npRmpi Mac OS X binary (available as a binary tgz file from the GitHub Downloads menu).
+The companion [Gallery of Code](https://jeffreyracine.github.io/gallery/) is the practical example layer. This research site is the bibliographic and resource layer: book links, package references, auxiliary downloads, and durable pointers.
 
-See the October 2007 Rnews article ([pdf](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf)) that describes the np package, the np vignette ([pdf](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)) for an overview of the np package, and the entropy-based inference vignette for an overview of computing entropy measures ([pdf](https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf)) ([R code](www/entropy_np.R)).
+## Navigation Guidance
 
-See also the review of the np package that appeared in 2008 in the Journal of Applied Econometrics ([link to article in the Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract)) and the review of the npRmpi package that appeared in 2011 in the Journal of Applied Econometrics ([link to article in the Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract)).
+Start with [Reader Pathways](pathways.qmd) if you want a guided route by audience. Use [Books and Monographs](books.qmd) if you are looking for a publication or companion file. Use the [Research Corpus Map](corpus.qmd) if you want to know which book or package is closest to a topic. Use [R Packages](software.qmd) for software entry points, current package versions, manuals, vignettes, and source repositories.
 
-These packages are hosted on GitHub ([link](https://github.com/JeffreyRacine/R-Package-np/)).
+## Core References
 
-## The R crs Package
+- Racine, J.S. [-@racine_cambridge_2019], *An Introduction to the Advanced Theory and Practice of Nonparametric Econometrics: A Replicable Approach Using R*.
+- Racine, J.S. [-@racine_oxford_2019], *Reproducible Econometrics Using R*.
+- Li, Q. and J.S. Racine [-@li_racine_2007], *Nonparametric Econometrics: Theory and Practice*.
+- Hayfield, T. and J.S. Racine [-@np], "Nonparametric Econometrics: The `np` Package."
+- Nie, Z. and J.S. Racine [-@Nie2012TheCP], "The `crs` Package: Nonparametric Regression Splines for Continuous and Categorical Predictors."
 
-Consult the crs FAQ ([pdf](https://cran.r-project.org/web/packages/crs/vignettes/crs_faq.pdf)) for responses to commonly asked questions and the user manual ([pdf](https://cran.r-project.org/web/packages/crs/vignettes/crs.pdf)) for functions, descriptions, and examples.
+## Quick Links
 
-The R ([www.r-project.org](https://www.r-project.org/)) crs package (current version 0.15-31) implements multivariate regression splines (and quantile regression splines as of version 0.15-8) with both continuous and categorical predictors in R, an open source platform for statistical computing and graphics. See the links to the vignettes below for an overview of the package.
-
-Here is a direct [link](https://cran.r-project.org/web/packages/crs/index.html) to the crs package on the Comprehensive R Archive Network (CRAN), a direct [link](https://cran.r-project.org/web/packages/crs/ChangeLog) to the CHANGELOG file on CRAN (documents differences between all versions).
-
-See the R Journal article ([pdf](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Nie+S~Racine.pdf)) that describes the crs package, the crs vignette ([pdf](https://cran.r-project.org/web/packages/crs/vignettes/crs.pdf)) for an overview of the crs package and the spline primer vignette for an overview of regression splines ([pdf](https://cran.r-project.org/web/packages/crs/vignettes/spline_primer.pdf)).
-
-This package is hosted on GitHub ([link](https://github.com/JeffreyRacine/R-Package-crs/)).
-
-## The R ma Package
-
-Consult the user manual ([pdf](www/ma-manual.pdf)) for functions, descriptions, and examples, and the vignette ([pdf](www/ma-vignette.pdf)) for an overview.
-
-The R ([www.r-project.org](https://www.r-project.org/)) ma package (current version 1.0-8) implements model averaging using a variety of multivariate bases and averaging criteria.
-
-This package is hosted on GitHub ([link](https://github.com/JeffreyRacine/R-Package-ma/)).
-
-## The R hr Package
-
-Consult the user manual ([pdf](www/hr-manual.pdf)) for functions, descriptions, and examples.
-
-The R ([www.r-project.org](https://www.r-project.org/)) ma package (current version 1.0-1) implements the Hansen-Racine bootstrap model average unit root test.
-
-This package is hosted on GitHub ([link](https://github.com/JeffreyRacine/R-Package-hr/)).
-
-## Stata Implementations of Mixed Data Kernel Estimation (Racine & Li (2004) Journal of Econometrics, Li & Racine (2004) Statistica Sinica)
-
-As of Stata Version 15, Stata users now have access to our mixed-datatype kernel regression methods. See <https://www.stata.com/manuals15/rnpregress.pdf> for details. The Stata 15 function *npregress* is the counterpart to the function *npreg* in the R package np, albeit with different defaults and options.
-
-## Gallery of Code and Applications for the np, npRmpi, and crs R Packages
-
-The following link ([link to gallery](https://jeffreyracine.github.io/gallery/)) will take you to a gallery where you can find some commented examples of working code for a range of estimators contained in the np, npRmpi, and crs packages outlined below. Feel free to email me with suggestions. I welcome code/examples that can be showcased and shared with other users, so please feel free to send me code that you would like to share and I will host it in the gallery along with your contact information.
+| Destination | Link |
+|---|---|
+| McMaster profile | [experts.mcmaster.ca/display/racinej](https://experts.mcmaster.ca/display/racinej) |
+| Gallery of Code | [jeffreyracine.github.io/gallery](https://jeffreyracine.github.io/gallery/) |
+| `np` on CRAN | [cran.r-project.org/package=np](https://cran.r-project.org/web/packages/np/index.html) |
+| `crs` on CRAN | [cran.r-project.org/package=crs](https://cran.r-project.org/web/packages/crs/index.html) |
+| Package source | [github.com/JeffreyRacine/R-Package-np](https://github.com/JeffreyRacine/R-Package-np/) |

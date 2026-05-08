@@ -1,22 +1,62 @@
 project:
   type: website
   output-dir: docs
-  
+  resources:
+    - "www/**"
+
 website:
-  title: "Jeffrey S. Racine's Auxiliary Research Website"
-  repo-url: https://github.com/JeffreyRacine/research
-  repo-actions: [edit, issue]  
+  title: "Jeffrey S. Racine Research"
+  site-url: "https://jeffreyracine.github.io/research/"
+  repo-url: "https://github.com/JeffreyRacine/research"
+  repo-actions: [source]
+  search: true
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    pinned: true
+    right:
+      - icon: github
+        href: "https://github.com/JeffreyRacine/research"
+        aria-label: "Research site source on GitHub"
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Research"
+        contents:
+          - href: index.qmd
+            text: "Overview"
+          - href: books.qmd
+            text: "Books and Monographs"
+          - href: corpus.qmd
+            text: "Research Corpus Map"
+          - href: pathways.qmd
+            text: "Reader Pathways"
+          - href: software.qmd
+            text: "R Packages"
+          - href: teaching.qmd
+            text: "Teaching Materials"
+          - href: resources.qmd
+            text: "Downloads and Teaching"
+          - href: about.qmd
+            text: "About"
+  page-footer:
+    left: "Research pointers, book materials, and software resources."
+    right:
+      - text: "Gallery of Code"
+        href: "https://jeffreyracine.github.io/gallery/"
+      - text: "McMaster profile"
+        href: "https://experts.mcmaster.ca/display/racinej"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    smooth-scroll: true
