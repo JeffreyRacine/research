@@ -24,7 +24,7 @@ The current CRAN release of `np` is `0.70-1` (published 2026-05-02). The current
 - [Gallery examples for `np`, `npRmpi`, and `crs`](https://jeffreyracine.github.io/gallery/)
 :::
 
-The original package article is Hayfield and Racine [-@np]. See also the October 2007 *R News* article [PDF](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf), the entropy vignette [PDF](https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf), and the accompanying [R code](www/entropy_np.R).
+The original package article is Hayfield and Racine [-@np]. See also the October 2007 *R News* article [PDF](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf), the current entropy vignette [on CRAN](https://cran.r-project.org/web/packages/np/vignettes/np_entropy_tests.html), and the accompanying [R code](www/entropy_np.R).
 
 Reviews appeared in the *Journal of Applied Econometrics* for [`np`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract) and [`npRmpi`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract).
 
@@ -63,7 +63,7 @@ The `crs` package implements multivariate regression splines, including quantile
 - [`crs` source repository](https://github.com/JeffreyRacine/R-Package-crs/)
 :::
 
-The package article is Nie and Racine [-@Nie2012TheCP], published in *The R Journal* [PDF](https://journal.r-project.org/archive/2012-2/RJournal_2012-2_Nie+S~Racine.pdf).
+The package article is Nie and Racine [-@Nie2012TheCP], published in *The R Journal* [article page](https://journal.r-project.org/archive/2012/RJ-2012-012/index.html) and [PDF](https://journal.r-project.org/archive/2012/RJ-2012-012/RJ-2012-012.pdf).
 
 ### Method Families
 
