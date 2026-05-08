@@ -7,15 +7,19 @@ bibliography: references.bib
 
 The `np` package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.
 
-The current local source version is `np` 0.70-2. The MPI-aware sibling `npRmpi` is also at 0.70-2 locally and is designed for batch programs on clusters and multi-core environments where computationally intensive jobs benefit from explicit message passing.
+The current CRAN release of `np` is `0.70-1` (published 2026-05-02). The current CRAN release of `npRmpi` is `0.70-1` (published 2026-05-01). `npRmpi` is the MPI-aware companion to `np` for larger jobs and explicit message-passing workflows.
 
 ::: {.resource-card}
 ### Package Pointers
 
 - [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
+- [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
 - [`np` changelog on CRAN](https://cran.r-project.org/web/packages/np/ChangeLog)
-- [`np` FAQ](https://cran.r-project.org/web/packages/np/vignettes/np_faq.pdf)
-- [`np` user manual](https://cran.r-project.org/web/packages/np/vignettes/np.pdf)
+- [`npRmpi` changelog on CRAN](https://cran.r-project.org/web/packages/npRmpi/ChangeLog)
+- [`np` package page (documentation, vignettes, materials)](https://cran.r-project.org/web/packages/np/index.html)
+- [`np` reference manual](https://cran.r-project.org/web/packages/np/np.pdf)
+- [`npRmpi` package page (documentation, vignette, materials)](https://cran.r-project.org/web/packages/npRmpi/index.html)
+- [`npRmpi` reference manual](https://cran.r-project.org/web/packages/npRmpi/npRmpi.pdf)
 - [`np` and `npRmpi` source repository](https://github.com/JeffreyRacine/R-Package-np/)
 - [Gallery examples for `np`, `npRmpi`, and `crs`](https://jeffreyracine.github.io/gallery/)
 :::
@@ -23,6 +27,14 @@ The current local source version is `np` 0.70-2. The MPI-aware sibling `npRmpi` 
 The original package article is Hayfield and Racine [-@np]. See also the October 2007 *R News* article [PDF](https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf), the entropy vignette [PDF](https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf), and the accompanying [R code](www/entropy_np.R).
 
 Reviews appeared in the *Journal of Applied Econometrics* for [`np`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract) and [`npRmpi`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract).
+
+::: {.callout-note}
+## Development-branch plotting note
+
+The GitHub/development branches of `np` and `npRmpi` already include a plotting-interface redesign targeted at `0.70-2`, even though the current CRAN releases remain `0.70-1`.
+
+Development-branch users should expect newer public plotting controls such as `errors`, `bootstrap`, `band`, `data_rug`, `data_overlay`, and other `snake_case` argument names. The [Gallery of Code](https://jeffreyracine.github.io/gallery/) reflects that current development-branch plotting surface.
+:::
 
 ### Method Families
 
@@ -39,16 +51,15 @@ Reviews appeared in the *Journal of Applied Econometrics* for [`np`](https://onl
 
 ## `crs`
 
-The `crs` package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current local source version is `crs` 0.15-43.
+The `crs` package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current CRAN release is `crs` `0.15-42` (published 2026-05-01).
 
 ::: {.resource-card}
 ### Package Pointers
 
 - [`crs` on CRAN](https://cran.r-project.org/web/packages/crs/index.html)
 - [`crs` changelog on CRAN](https://cran.r-project.org/web/packages/crs/ChangeLog)
-- [`crs` FAQ](https://cran.r-project.org/web/packages/crs/vignettes/crs_faq.pdf)
-- [`crs` user manual](https://cran.r-project.org/web/packages/crs/vignettes/crs.pdf)
-- [`crs` spline primer](https://cran.r-project.org/web/packages/crs/vignettes/spline_primer.pdf)
+- [`crs` package page (documentation, vignette, materials)](https://cran.r-project.org/web/packages/crs/index.html)
+- [`crs` reference manual](https://cran.r-project.org/web/packages/crs/crs.pdf)
 - [`crs` source repository](https://github.com/JeffreyRacine/R-Package-crs/)
 :::
 

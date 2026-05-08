@@ -38,4 +38,5 @@ Lecture slides, assignments, exams, and solution manuals are available upon requ
 - [Gallery of Code](https://jeffreyracine.github.io/gallery/)
 - [McMaster profile](https://experts.mcmaster.ca/display/racinej)
 - [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
+- [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
 - [`crs` on CRAN](https://cran.r-project.org/web/packages/crs/index.html)

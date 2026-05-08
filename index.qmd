@@ -101,7 +101,7 @@ The companion [Gallery of Code](https://jeffreyracine.github.io/gallery/) is the
 
 ## Navigation Guidance
 
-Start with [Reader Pathways](pathways.qmd) if you want a guided route by audience. Use [Books and Monographs](books.qmd) if you are looking for a publication or companion file. Use the [Research Corpus Map](corpus.qmd) if you want to know which book or package is closest to a topic. Use [R Packages](software.qmd) for software entry points, current package versions, manuals, vignettes, and source repositories.
+Start with [Reader Pathways](pathways.qmd) if you want a guided route by audience. Use [Books and Monographs](books.qmd) if you are looking for a publication or companion file. Use the [Research Contributions Map](corpus.qmd) if you want to know which book or package is closest to a topic. Use [R Packages](software.qmd) for software entry points, current package versions, manuals, vignettes, and source repositories.
 
 ## Core References
 
@@ -118,5 +118,6 @@ Start with [Reader Pathways](pathways.qmd) if you want a guided route by audienc
 | McMaster profile | [experts.mcmaster.ca/display/racinej](https://experts.mcmaster.ca/display/racinej) |
 | Gallery of Code | [jeffreyracine.github.io/gallery](https://jeffreyracine.github.io/gallery/) |
 | `np` on CRAN | [cran.r-project.org/package=np](https://cran.r-project.org/web/packages/np/index.html) |
+| `npRmpi` on CRAN | [cran.r-project.org/package=npRmpi](https://cran.r-project.org/web/packages/npRmpi/index.html) |
 | `crs` on CRAN | [cran.r-project.org/package=crs](https://cran.r-project.org/web/packages/crs/index.html) |
 | Package source | [github.com/JeffreyRacine/R-Package-np](https://github.com/JeffreyRacine/R-Package-np/) |

@@ -178,7 +178,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./corpus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research Corpus Map</span></a>
+ <span class="menu-text">Research Contributions Map</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -267,20 +267,38 @@ div.csl-indent {
 <section id="np-and-nprmpi" class="level2">
 <h2 class="anchored" data-anchor-id="np-and-nprmpi"><code>np</code> and <code>npRmpi</code></h2>
 <p>The <code>np</code> package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.</p>
-<p>The current local source version is <code>np</code> 0.70-2. The MPI-aware sibling <code>npRmpi</code> is also at 0.70-2 locally and is designed for batch programs on clusters and multi-core environments where computationally intensive jobs benefit from explicit message passing.</p>
+<p>The current CRAN release of <code>np</code> is <code>0.70-1</code> (published 2026-05-02). The current CRAN release of <code>npRmpi</code> is <code>0.70-1</code> (published 2026-05-01). <code>npRmpi</code> is the MPI-aware companion to <code>np</code> for larger jobs and explicit message-passing workflows.</p>
 <section id="package-pointers" class="level3 resource-card">
 <h3 class="anchored" data-anchor-id="package-pointers">Package Pointers</h3>
 <ul>
 <li><a href="https://cran.r-project.org/web/packages/np/index.html"><code>np</code> on CRAN</a></li>
+<li><a href="https://cran.r-project.org/web/packages/npRmpi/index.html"><code>npRmpi</code> on CRAN</a></li>
 <li><a href="https://cran.r-project.org/web/packages/np/ChangeLog"><code>np</code> changelog on CRAN</a></li>
-<li><a href="https://cran.r-project.org/web/packages/np/vignettes/np_faq.pdf"><code>np</code> FAQ</a></li>
-<li><a href="https://cran.r-project.org/web/packages/np/vignettes/np.pdf"><code>np</code> user manual</a></li>
+<li><a href="https://cran.r-project.org/web/packages/npRmpi/ChangeLog"><code>npRmpi</code> changelog on CRAN</a></li>
+<li><a href="https://cran.r-project.org/web/packages/np/index.html"><code>np</code> package page (documentation, vignettes, materials)</a></li>
+<li><a href="https://cran.r-project.org/web/packages/np/np.pdf"><code>np</code> reference manual</a></li>
+<li><a href="https://cran.r-project.org/web/packages/npRmpi/index.html"><code>npRmpi</code> package page (documentation, vignette, materials)</a></li>
+<li><a href="https://cran.r-project.org/web/packages/npRmpi/npRmpi.pdf"><code>npRmpi</code> reference manual</a></li>
 <li><a href="https://github.com/JeffreyRacine/R-Package-np/"><code>np</code> and <code>npRmpi</code> source repository</a></li>
 <li><a href="https://jeffreyracine.github.io/gallery/">Gallery examples for <code>np</code>, <code>npRmpi</code>, and <code>crs</code></a></li>
 </ul>
 </section>
 <p>The original package article is Hayfield and Racine <span class="citation" data-cites="np">(<a href="#ref-np" role="doc-biblioref">2008</a>)</span>. See also the October 2007 <em>R News</em> article <a href="https://cran.r-project.org/doc/Rnews/Rnews_2007-2.pdf">PDF</a>, the entropy vignette <a href="https://cran.r-project.org/web/packages/np/vignettes/entropy_np.pdf">PDF</a>, and the accompanying <a href="www/entropy_np.R">R code</a>.</p>
 <p>Reviews appeared in the <em>Journal of Applied Econometrics</em> for <a href="https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract"><code>np</code></a> and <a href="https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract"><code>npRmpi</code></a>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Development-branch plotting note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The GitHub/development branches of <code>np</code> and <code>npRmpi</code> already include a plotting-interface redesign targeted at <code>0.70-2</code>, even though the current CRAN releases remain <code>0.70-1</code>.</p>
+<p>Development-branch users should expect newer public plotting controls such as <code>errors</code>, <code>bootstrap</code>, <code>band</code>, <code>data_rug</code>, <code>data_overlay</code>, and other <code>snake_case</code> argument names. The <a href="https://jeffreyracine.github.io/gallery/">Gallery of Code</a> reflects that current development-branch plotting surface.</p>
+</div>
+</div>
 <section id="method-families" class="level3">
 <h3 class="anchored" data-anchor-id="method-families">Method Families</h3>
 <table class="caption-top table">
@@ -334,15 +352,14 @@ div.csl-indent {
 </section>
 <section id="crs" class="level2">
 <h2 class="anchored" data-anchor-id="crs"><code>crs</code></h2>
-<p>The <code>crs</code> package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current local source version is <code>crs</code> 0.15-43.</p>
+<p>The <code>crs</code> package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current CRAN release is <code>crs</code> <code>0.15-42</code> (published 2026-05-01).</p>
 <section id="package-pointers-1" class="level3 resource-card">
 <h3 class="anchored" data-anchor-id="package-pointers-1">Package Pointers</h3>
 <ul>
 <li><a href="https://cran.r-project.org/web/packages/crs/index.html"><code>crs</code> on CRAN</a></li>
 <li><a href="https://cran.r-project.org/web/packages/crs/ChangeLog"><code>crs</code> changelog on CRAN</a></li>
-<li><a href="https://cran.r-project.org/web/packages/crs/vignettes/crs_faq.pdf"><code>crs</code> FAQ</a></li>
-<li><a href="https://cran.r-project.org/web/packages/crs/vignettes/crs.pdf"><code>crs</code> user manual</a></li>
-<li><a href="https://cran.r-project.org/web/packages/crs/vignettes/spline_primer.pdf"><code>crs</code> spline primer</a></li>
+<li><a href="https://cran.r-project.org/web/packages/crs/index.html"><code>crs</code> package page (documentation, vignette, materials)</a></li>
+<li><a href="https://cran.r-project.org/web/packages/crs/crs.pdf"><code>crs</code> reference manual</a></li>
 <li><a href="https://github.com/JeffreyRacine/R-Package-crs/"><code>crs</code> source repository</a></li>
 </ul>
 </section>
