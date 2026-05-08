@@ -1,5 +1,5 @@
 ---
-title: "Research Corpus Map"
+title: "Research Contributions Map"
 bibliography: references.bib
 ---
 

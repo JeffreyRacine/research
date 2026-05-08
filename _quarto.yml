@@ -31,7 +31,7 @@ website:
           - href: books.qmd
             text: "Books and Monographs"
           - href: corpus.qmd
-            text: "Research Corpus Map"
+            text: "Research Contributions Map"
           - href: pathways.qmd
             text: "Reader Pathways"
           - href: software.qmd

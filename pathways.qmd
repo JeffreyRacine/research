@@ -47,7 +47,7 @@ Start with the software page, then move outward to examples and theory.
 
 1. Use [R Packages](software.qmd) for current package versions, CRAN links, GitHub repositories, manuals, and vignettes.
 2. Use the [Gallery of Code](https://jeffreyracine.github.io/gallery/) for working examples and package usage notes.
-3. Use the [Research Corpus Map](corpus.qmd) when you want to connect a function family to its book-level method background.
+3. Use the [Research Contributions Map](corpus.qmd) when you want to connect a function family to its book-level method background.
 4. Cite the relevant package article, book, or manual depending on the workflow.
 :::
 
