@@ -26,11 +26,11 @@ Companion pointers for the Cambridge, Oxford, and Princeton books, including err
 
 ::: {.column width="50%"}
 ::: {.home-card}
-### Corpus Map
+### Research Contributions Map
 
 A guide to how the books, articles, examples, and R packages fit together across kernel methods, splines, mixed data, and reproducible computation.
 
-[Research corpus map](corpus.qmd)
+[Research contributions map](corpus.qmd)
 :::
 :::
 ::::
