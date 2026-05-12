@@ -120,5 +120,6 @@ Start with [Reader Pathways](pathways.qmd) if you want a guided route by audienc
 | `np` on CRAN | [cran.r-project.org/package=np](https://cran.r-project.org/web/packages/np/index.html) |
 | `npRmpi` on CRAN | [cran.r-project.org/package=npRmpi](https://cran.r-project.org/web/packages/npRmpi/index.html) |
 | `crs` on CRAN | [cran.r-project.org/package=crs](https://cran.r-project.org/web/packages/crs/index.html) |
-| `np` / `npRmpi` source | [github.com/JeffreyRacine/R-Package-np](https://github.com/JeffreyRacine/R-Package-np/) |
+| `np` source | [github.com/JeffreyRacine/R-Package-np](https://github.com/JeffreyRacine/R-Package-np/) |
+| `npRmpi` source | [github.com/JeffreyRacine/R-Package-np/tree/npRmpi](https://github.com/JeffreyRacine/R-Package-np/tree/npRmpi) |
 | `crs` source | [github.com/JeffreyRacine/R-Package-crs](https://github.com/JeffreyRacine/R-Package-crs/) |

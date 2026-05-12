@@ -20,7 +20,8 @@ The current CRAN release of `np` is `0.70-1` (published 2026-05-02). The current
 - [`np` reference manual](https://cran.r-project.org/web/packages/np/np.pdf)
 - [`npRmpi` package page (documentation, vignette, materials)](https://cran.r-project.org/web/packages/npRmpi/index.html)
 - [`npRmpi` reference manual](https://cran.r-project.org/web/packages/npRmpi/npRmpi.pdf)
-- [`np` and `npRmpi` source repository](https://github.com/JeffreyRacine/R-Package-np/)
+- [`np` source repository](https://github.com/JeffreyRacine/R-Package-np/)
+- [`npRmpi` source branch](https://github.com/JeffreyRacine/R-Package-np/tree/npRmpi)
 - [Gallery examples for `np`, `npRmpi`, and `crs`](https://jeffreyracine.github.io/gallery/)
 :::
 

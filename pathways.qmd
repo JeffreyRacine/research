@@ -58,7 +58,7 @@ Start with the theory and implementation relationship.
 
 1. Use Li and Racine [-@li_racine_2007] for the broad theory-and-practice foundation.
 2. Use Racine [-@racine_cambridge_2019] for an R-centered advanced treatment of conditional moments, density/distribution methods, semiparametric models, and computation.
-3. Use the shared `np` / `npRmpi` source repository to inspect implementation details.
+3. Use the `np` source repository and the `npRmpi` source branch to inspect implementation details.
 4. Treat `np` as the serial source-of-truth implementation and `npRmpi` as the MPI-aware sibling for parallel execution.
 :::
 
