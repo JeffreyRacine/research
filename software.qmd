@@ -7,7 +7,10 @@ bibliography: references.bib
 
 The `np` package implements nonparametric and semiparametric kernel-based methods in R, including kernel regression, density estimation, conditional density estimation, distribution methods, quantiles, and inferential procedures for mixed data. It handles continuous, unordered factor, and ordered factor data in a unified smoothing framework.
 
-The current CRAN release of `np` is `0.70-1` (published 2026-05-02). The current CRAN release of `npRmpi` is `0.70-1` (published 2026-05-01). `npRmpi` is the MPI-aware companion to `np` for larger jobs and explicit message-passing workflows.
+As of Friday, May 15, 2026, the current CRAN release line is `np`
+`0.70-2`, `npRmpi` `0.70-2`, and `crs` `0.15-43`. `npRmpi` is the
+MPI-aware companion to `np` for larger jobs and explicit
+message-passing workflows.
 
 ::: {.resource-card}
 ### Package Pointers
@@ -30,11 +33,14 @@ The original package article is Hayfield and Racine [-@np]. See also the October
 Reviews appeared in the *Journal of Applied Econometrics* for [`np`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1004/abstract) and [`npRmpi`](https://onlinelibrary.wiley.com/doi/10.1002/jae.1221/abstract).
 
 ::: {.callout-note}
-## Development-branch plotting note
+## Current plotting interface
 
-The GitHub/development branches of `np` and `npRmpi` already include a plotting-interface redesign targeted at `0.70-2`, even though the current CRAN releases remain `0.70-1`.
-
-Development-branch users should expect newer public plotting controls such as `errors`, `bootstrap`, `band`, `data_rug`, `data_overlay`, and other `snake_case` argument names. The [Gallery of Code](https://jeffreyracine.github.io/gallery/) reflects that current development-branch plotting surface.
+The plotting-interface redesign is now part of the current public
+`np` / `npRmpi` release surface. Users should expect public plotting
+controls such as `errors`, `bootstrap`, `band`, `data_rug`,
+`data_overlay`, and other `snake_case` argument names. The
+[Gallery of Code](https://jeffreyracine.github.io/gallery/) reflects
+that current public plotting surface.
 :::
 
 ### Method Families
@@ -52,7 +58,9 @@ Development-branch users should expect newer public plotting controls such as `e
 
 ## `crs`
 
-The `crs` package implements multivariate regression splines, including quantile regression splines and support for continuous and categorical predictors. The current CRAN release is `crs` `0.15-42` (published 2026-05-01).
+The `crs` package implements multivariate regression splines, including
+quantile regression splines and support for continuous and categorical
+predictors. The current CRAN release line is `crs` `0.15-43`.
 
 ::: {.resource-card}
 ### Package Pointers
